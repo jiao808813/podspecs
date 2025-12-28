@@ -1,0 +1,31 @@
+{
+  "name": "APStability",
+  "version": "1.0.0.250731203412",
+  "summary": "APStability - 支付宝钱包APStability类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APStability/1_0_0_250731203412.tar.gz"
+  },
+  "preserve_paths": "APStability.framework/*",
+  "resources": "APStability.framework/*.bundle",
+  "dependencies": {
+    "APRemoteLogging": [],
+    "APLog": [],
+    "APConfig": [],
+    "APMobileFramework": [],
+    "MPSignatureAdapter": [],
+    "MPDataCenter": [],
+    "mPaas": []
+  },
+  "vendored_frameworks": "APStability.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APStability"
+  }
+}

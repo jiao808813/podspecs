@@ -1,0 +1,31 @@
+{
+  "name": "MPCubeAntUIPlugins",
+  "version": "1.0.0.250619200254",
+  "summary": "MPCubeAntUIPlugins - 支付宝钱包MPCubeAntUIPlugins类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPCubeAntUIPlugins/1_0_0_250619200254.tar.gz"
+  },
+  "preserve_paths": "MPCubeAntUIPlugins.framework/*",
+  "resources": "MPCubeAntUIPlugins.framework/*.bundle",
+  "dependencies": {
+    "AntCube": [],
+    "MPCubeAdapter": [],
+    "mPaas": [],
+    "APMultimedia": [],
+    "BeeMediaPlayer": [],
+    "AntUI": [],
+    "SDWebImage": []
+  },
+  "vendored_frameworks": "MPCubeAntUIPlugins.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPCubeAntUIPlugins"
+  }
+}

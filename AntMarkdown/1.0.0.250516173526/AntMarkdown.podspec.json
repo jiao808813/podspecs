@@ -1,0 +1,26 @@
+{
+  "name": "AntMarkdown",
+  "version": "1.0.0.250516173526",
+  "summary": "A short description of AntMarkdown.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AntMarkdown/1_0_0_250516173526.tar.gz"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "preserve_paths": "AntMarkdown.framework/*",
+  "resources": "AntMarkdown.framework/*.bundle",
+  "vendored_frameworks": "AntMarkdown.framework",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "APConfig": [],
+    "APMobileFramework": []
+  }
+}

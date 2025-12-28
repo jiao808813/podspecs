@@ -1,0 +1,27 @@
+{
+  "name": "AFWFinanceChart",
+  "version": "1.0.0.250829105902",
+  "summary": "AFWFinanceChart - 支付宝钱包AFWFinanceChart类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AFWFinanceChart/1_0_0_250829105902.tar.gz"
+  },
+  "preserve_paths": "AFWFinanceChart.framework/*",
+  "resources": "AFWFinanceChart.framework/*.bundle",
+  "dependencies": {
+    "APLog": [],
+    "mPaas": [],
+    "AntCube": []
+  },
+  "vendored_frameworks": "AFWFinanceChart.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AFWFinanceChart"
+  }
+}

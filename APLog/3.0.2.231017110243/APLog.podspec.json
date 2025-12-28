@@ -1,0 +1,25 @@
+{
+  "name": "APLog",
+  "version": "3.0.2.231017110243",
+  "summary": "APLog - 支付宝钱包APLog类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APLog/3_0_2_231017110243.tar.gz"
+  },
+  "preserve_paths": "APLog.framework/*",
+  "resources": "APLog.framework/*.bundle",
+  "dependencies": {
+    "mPaas": []
+  },
+  "vendored_frameworks": "APLog.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APLog"
+  }
+}

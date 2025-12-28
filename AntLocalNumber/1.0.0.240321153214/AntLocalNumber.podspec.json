@@ -1,0 +1,32 @@
+{
+  "name": "AntLocalNumber",
+  "version": "1.0.0.240321153214",
+  "summary": "AntLocalNumber - 支付宝钱包AntLocalNumber类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AntLocalNumber/1_0_0_240321153214.tar.gz"
+  },
+  "libraries": [
+    "c++.1",
+    "z.1.2.8"
+  ],
+  "dependencies": {
+    "MPLocalLoginSDK": "1.0.0.240321152424",
+    "MPVirtualNetOperatorSDK": "1.0.0.240306174427",
+    "ZolozMobileRPC": "1.0.0.220316184537",
+    "ZolozUtility": "1.0.0.221014160516",
+    "MPRemoteLogging": "1.3.1.230425140616"
+  },
+  "vendored_frameworks": "",
+  "resources": "",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AntLocalNumber"
+  }
+}

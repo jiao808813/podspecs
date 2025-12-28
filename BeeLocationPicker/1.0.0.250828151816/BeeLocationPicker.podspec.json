@@ -1,0 +1,30 @@
+{
+  "name": "BeeLocationPicker",
+  "version": "1.0.0.250828151816",
+  "summary": "BeeLocationPicker - 支付宝BeeLocationPicker类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/BeeLocationPicker/1_0_0_250828151816.tar.gz"
+  },
+  "preserve_paths": "BeeLocationPicker.framework/*",
+  "resources": "BeeLocationPicker.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "AntUI": [],
+    "APLog": [],
+    "APCommonUI": [],
+    "mPaaSHeader": []
+  },
+  "vendored_frameworks": "BeeLocationPicker.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/BeeLocationPicker"
+  }
+}

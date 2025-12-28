@@ -1,0 +1,25 @@
+{
+  "name": "MPSignatureService",
+  "version": "1.0.0.250520112844",
+  "summary": "MPSignatureService - 支付宝钱包MPSignatureService类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPSignatureService/1_0_0_250520112844.tar.gz"
+  },
+  "preserve_paths": "MPSignatureService.framework/*",
+  "resources": "MPSignatureService.framework/*.bundle",
+  "dependencies": {
+    "APOpenSSL": []
+  },
+  "vendored_frameworks": "MPSignatureService.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPSignatureService"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Canvas",
+  "version": "1.0.0.240313153826",
+  "summary": "Canvas - 支付宝钱包Canvas类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/Canvas/1_0_0_240313153826.tar.gz"
+  },
+  "preserve_paths": "Canvas.framework/*",
+  "resources": "Canvas.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "APRemoteLogging": [],
+    "mPaaSHeader": [],
+    "APConfig": [],
+    "APProtocolBuffers": [],
+    "APMultimedia": [],
+    "AntUI": [],
+    "APLog": [],
+    "GCanvas4Alipay": [],
+    "AntGraphic": [],
+    "AntCanvas": [],
+    "BeeYouKuPlayerWrapper": []
+  },
+  "vendored_frameworks": "Canvas.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/Canvas"
+  }
+}

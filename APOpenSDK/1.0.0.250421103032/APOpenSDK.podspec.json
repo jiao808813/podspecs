@@ -1,0 +1,22 @@
+{
+  "name": "APOpenSDK",
+  "version": "1.0.0.250421103032",
+  "summary": "APOpenSDK - 支付宝钱包APOpenSDK类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APOpenSDK/1_0_0_250421103032.tar.gz"
+  },
+  "preserve_paths": "APOpenSDK.framework/*",
+  "vendored_frameworks": "APOpenSDK.framework",
+  "public_header_files": "APOpenSDK.framework/*.h",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APOpenSDK"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "AriverNebulaPoseidon",
+  "version": "1.0.0.240314192810",
+  "summary": "AriverNebulaPoseidon - 支付宝钱包AriverNebulaPoseidon类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverNebulaPoseidon/1_0_0_240314192810.tar.gz"
+  },
+  "preserve_paths": "AriverNebulaPoseidon.framework/*",
+  "resources": "AriverNebulaPoseidon.framework/*.bundle",
+  "dependencies": {
+    "AriverKernel": [],
+    "APLog": []
+  },
+  "vendored_frameworks": "AriverNebulaPoseidon.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverNebulaPoseidon"
+  }
+}

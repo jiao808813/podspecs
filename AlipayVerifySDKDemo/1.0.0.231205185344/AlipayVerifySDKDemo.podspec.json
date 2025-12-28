@@ -1,0 +1,19 @@
+{
+  "name": "AlipayVerifySDKDemo",
+  "version": "1.0.0.231205185344",
+  "summary": "AlipayVerifySDKDemo",
+  "description": "钱包AlipayVerifySDKDemo",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "dependencies": {
+    "ZolozMobileRPC": []
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AlipayVerifySDKDemo/1_0_0_231205185344.tar.gz"
+  },
+  "preserve_paths": "Portal/*"
+}

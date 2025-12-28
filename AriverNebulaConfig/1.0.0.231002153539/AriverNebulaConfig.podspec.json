@@ -1,0 +1,28 @@
+{
+  "name": "AriverNebulaConfig",
+  "version": "1.0.0.231002153539",
+  "summary": "AriverNebulaConfig - AriverNebulaConfig",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverNebulaConfig/1_0_0_231002153539.tar.gz"
+  },
+  "preserve_paths": "AriverNebulaConfig.framework/*",
+  "resources": "AriverNebulaConfig.framework/*.bundle",
+  "dependencies": {
+    "AriverNebula": [],
+    "APMobileFramework": [],
+    "APConfig": [],
+    "mPaas": []
+  },
+  "vendored_frameworks": "AriverNebulaConfig.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverNebulaConfig"
+  }
+}

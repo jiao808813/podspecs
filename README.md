@@ -1,2 +1,2 @@
-# podspecs
-存储mPaaS json 文件
+This is where we store spec files
+remote test

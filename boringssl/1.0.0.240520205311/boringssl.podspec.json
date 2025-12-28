@@ -1,0 +1,21 @@
+{
+  "name": "boringssl",
+  "version": "1.0.0.240520205311",
+  "summary": "boringssl - 支付宝钱包boringssl类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/boringssl/1_0_0_240520205311.tar.gz"
+  },
+  "preserve_paths": "boringssl.framework/*",
+  "vendored_frameworks": "boringssl.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/boringssl"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "AriverConfig",
+  "version": "10.1.92.240627120330",
+  "summary": "AriverConfig - 支付宝钱包AriverConfig类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverConfig/10_1_92_240627120330.tar.gz"
+  },
+  "prefix_header_file": "SupportingFiles/AriverConfig-Prefix.pch",
+  "exclude_files": "Classes/Exclude",
+  "preserve_paths": "AriverConfig.framework/*",
+  "header_dir": "AriverConfig",
+  "vendored_frameworks": "AriverConfig.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverConfig"
+  }
+}

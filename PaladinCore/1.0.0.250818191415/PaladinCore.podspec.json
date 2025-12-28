@@ -1,0 +1,46 @@
+{
+  "name": "PaladinCore",
+  "version": "1.0.0.250818191415",
+  "summary": "PaladinCore - 支付宝钱包PaladinCore类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/PaladinCore/1_0_0_250818191415.tar.gz"
+  },
+  "preserve_paths": "PaladinCore.framework/*",
+  "resources": "PaladinCore.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "APLog": [],
+    "AntGraphic": [],
+    "ExpAR": [],
+    "AriverNebulaPoseidon": [],
+    "AriverNebulaAppManager": [],
+    "mPaas": [],
+    "APMUtils": [],
+    "APStorageCenter": [],
+    "AriverNebula": [],
+    "AriverApp": [],
+    "MPDataCenter": [],
+    "jsi": [],
+    "AntUI": [],
+    "AUBase": [],
+    "APMultimedia": []
+  },
+  "frameworks": [
+    "OpenAL",
+    "AudioToolbox"
+  ],
+  "vendored_frameworks": "PaladinCore.framework",
+  "libraries": "c++",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/PaladinCore"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "APMCDNImage",
+  "version": "1.0.0.250808163311",
+  "summary": "APMCDNImage - 支付宝钱包APMCDNImage类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMCDNImage/1_0_0_250808163311.tar.gz"
+  },
+  "preserve_paths": "APMCDNImage.framework/*",
+  "resources": "APMCDNImage.framework/*.bundle",
+  "dependencies": {
+    "APMUtils": [],
+    "APMAftsCommon": [],
+    "mPaas": []
+  },
+  "vendored_frameworks": "APMCDNImage.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APMCDNImage"
+  }
+}

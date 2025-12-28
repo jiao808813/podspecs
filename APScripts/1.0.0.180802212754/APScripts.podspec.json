@@ -1,0 +1,20 @@
+{
+  "name": "APScripts",
+  "version": "1.0.0.180802212754",
+  "summary": "APScripts - 支付宝钱包APScripts类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APScripts/1_0_0_180802212754.tar.gz"
+  },
+  "preserve_paths": "Scripts",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APScripts"
+  }
+}

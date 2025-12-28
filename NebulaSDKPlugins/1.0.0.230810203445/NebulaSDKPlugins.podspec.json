@@ -1,0 +1,32 @@
+{
+  "name": "NebulaSDKPlugins",
+  "version": "1.0.0.230810203445",
+  "summary": "NebulaSDKPlugins - 支付宝钱包NebulaSDKPlugins类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaSDKPlugins/1_0_0_230810203445.tar.gz"
+  },
+  "preserve_paths": "NebulaSDKPlugins.framework/*",
+  "resources": "NebulaSDKPlugins.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "MPDataCenter": [],
+    "APCommonUI": [],
+    "APMobileFramework": [],
+    "mPaas": [],
+    "APOpenSSL": [],
+    "NebulaHeader": [],
+    "mPaaSHeader": []
+  },
+  "vendored_frameworks": "NebulaSDKPlugins.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulaSDKPlugins"
+  }
+}

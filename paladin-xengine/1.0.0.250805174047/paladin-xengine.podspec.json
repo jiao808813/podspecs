@@ -1,0 +1,41 @@
+{
+  "name": "paladin-xengine",
+  "version": "1.0.0.250805174047",
+  "summary": "paladin-xengine - 支付宝钱包paladin-xengine类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/paladin-xengine/1_0_0_250805174047.tar.gz"
+  },
+  "preserve_paths": "paladin-xengine.framework/*",
+  "resources": "paladin-xengine.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "APLog": [],
+    "AntGraphic": [],
+    "Accelerate": [],
+    "CoreGraphics": [],
+    "PaladinCore": [],
+    "APMFile": [],
+    "APMultimedia": [],
+    "mPaas": [],
+    "Paladin": [],
+    "APStability": [],
+    "AriverDebug": [],
+    "APCommonUI": [],
+    "AriverRuntime": [],
+    "AriverExtHub": [],
+    "NebulaEngine": []
+  },
+  "vendored_frameworks": "paladin-xengine.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/paladin-xengine"
+  }
+}

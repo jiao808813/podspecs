@@ -1,0 +1,21 @@
+{
+  "name": "Bifrost",
+  "version": "1.0.250616202441",
+  "summary": "Bifrost - 支付宝钱包Bifrost类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/Bifrost/1_0_250616202441.tar.gz"
+  },
+  "preserve_paths": "Bifrost.framework/*",
+  "vendored_frameworks": "Bifrost.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/Bifrost"
+  }
+}

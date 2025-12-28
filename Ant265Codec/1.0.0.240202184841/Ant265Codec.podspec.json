@@ -1,0 +1,22 @@
+{
+  "name": "Ant265Codec",
+  "version": "1.0.0.240202184841",
+  "summary": "Ant265Codec - 支付宝钱包Ant265Codec类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/Ant265Codec/1_0_0_240202184841.tar.gz"
+  },
+  "preserve_paths": "Ant265Codec.framework/*",
+  "resources": "Ant265Codec.framework/*.bundle",
+  "vendored_frameworks": "Ant265Codec.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/Ant265Codec"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "AriverNebulaLogging",
+  "version": "1.0.0.230808113752",
+  "summary": "AriverNebulaLogging - 支付宝钱包NAriverNebulaLogging类库",
+  "description": "* Detail about this framework.\n提供SPM埋点整体方案、H5/容器埋点接口，产出容器自动埋点",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverNebulaLogging/1_0_0_230808113752.tar.gz"
+  },
+  "preserve_paths": "AriverNebulaLogging.framework/*",
+  "prefix_header_file": "NebulaLogging-prefix.h",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "AriverNebula": [],
+    "AriverNebulaSDK": [],
+    "AriverNebulaPoseidon": [],
+    "AriverNebulaConfig": [],
+    "APRemoteLogging": [],
+    "AutoTracker": [],
+    "AriverRuntime": [],
+    "AriverKernel": [],
+    "AriverApp": [],
+    "AriverResource": [],
+    "AriverLogger": [],
+    "FullLinkTracker": []
+  },
+  "vendored_frameworks": "AriverNebulaLogging.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverNebulaLogging"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "AriverExtHub",
+  "version": "1.0.0.250811191015",
+  "summary": "AriverExtHub - 支付宝钱包AriverExtHub类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverExtHub/1_0_0_250811191015.tar.gz"
+  },
+  "preserve_paths": "AriverExtHub.framework/*",
+  "resources": "AriverExtHub.framework/*.bundle",
+  "dependencies": {
+    "AriverKernel": [],
+    "AriverApp": [],
+    "AriverRuntime": [],
+    "AriverNebula": [],
+    "AriverSecurity": []
+  },
+  "vendored_frameworks": "AriverExtHub.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverExtHub"
+  }
+}

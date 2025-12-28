@@ -1,0 +1,37 @@
+{
+  "name": "AriverMPNebulaAdapter",
+  "version": "1.0.0.230723152430",
+  "summary": "AriverMPNebulaAdapter - 支付宝钱包AriverMPNebulaAdapter类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverMPNebulaAdapter/1_0_0_230723152430.tar.gz"
+  },
+  "preserve_paths": "AriverMPNebulaAdapter.framework/*",
+  "resources": "AriverMPNebulaAdapter.framework/*.bundle",
+  "dependencies": {
+    "AriverNebulaSDK": [],
+    "AriverNebulaAppManager": [],
+    "AriverNebulamPaaSBiz": [],
+    "AriverNebulaLogging": [],
+    "mPaas": [],
+    "APMobileNetwork": [],
+    "AntUI": [],
+    "APMobileFramework": [],
+    "AriverNebulaKernel": [],
+    "NebulaHeader": [],
+    "APConfig": [],
+    "NBInside": [],
+    "NebulaResource": []
+  },
+  "vendored_frameworks": "AriverMPNebulaAdapter.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverMPNebulaAdapter"
+  }
+}

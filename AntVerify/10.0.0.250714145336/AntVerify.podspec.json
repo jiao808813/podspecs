@@ -1,0 +1,53 @@
+{
+  "name": "AntVerify",
+  "version": "10.0.0.250714145336",
+  "summary": "AntVerify - 支付宝钱包AntVerify类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AntVerify/1_0_0_250714145336.tar.gz"
+  },
+  "frameworks": [
+    "WebKit",
+    "Accelerate",
+    "AssetsLibrary",
+    "CoreMotion",
+    "CoreLocation",
+    "AVFoundation",
+    "SystemConfiguration",
+    "UIKit"
+  ],
+  "libraries": [
+    "c++",
+    "c++.1",
+    "c++abi"
+  ],
+  "vendored_frameworks": "",
+  "resources": "",
+  "dependencies": {
+    "AlipayVerifySDK": "1.0.0.250421211919",
+    "APPSecuritySDK": "1.0.0.241223142540",
+    "BioAuthAPI": "1.0.0.210506154224",
+    "MPRemoteLogging": "1.3.1.230425140616",
+    "ZolozIdentityManager": "1.0.0.240710162648",
+    "ZolozOpenPlatformBuild": "1.3.1.250714144844",
+    "ZolozSensorServices": "1.3.1.250120201013",
+    "ZolozUtility": "1.0.0.240710165527",
+    "BioAuthEngine": "1.3.1.240226204733",
+    "APBToygerFacade": "1.2.10.250714144844",
+    "ToygerService": "1.3.1.250228221401",
+    "OCRDetectSDKForTech": "1.0.0.220316184537",
+    "AliyunIdentityManager": "1.0.0.250428140016",
+    "ZolozMobileRPC": "1.0.0.220316184537",
+    "MPFaceGuardShell": "1.0.0.250410141647"
+  },
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AntVerify"
+  },
+  "requires_arc": true
+}

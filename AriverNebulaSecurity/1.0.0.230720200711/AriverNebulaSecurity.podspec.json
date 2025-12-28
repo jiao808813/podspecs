@@ -1,0 +1,35 @@
+{
+  "name": "AriverNebulaSecurity",
+  "version": "1.0.0.230720200711",
+  "summary": "AriverNebulaSecurity - 支付宝钱包AriverNebulaSecurity类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverNebulaSecurity/1_0_0_230720200711.tar.gz"
+  },
+  "preserve_paths": "AriverNebulaSecurity.framework/*",
+  "resources": "AriverNebulaSecurity.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "AriverNebula": [],
+    "AriverNebulaSDK": [],
+    "AriverApi": [],
+    "AriverSecurity": [],
+    "AriverNebulaAppBiz": [],
+    "MPDataCenter": [],
+    "AriverNebulaConfig": [],
+    "APProtocolBuffers": [],
+    "APRemoteLogging": [],
+    "mPaas": []
+  },
+  "vendored_frameworks": "AriverNebulaSecurity.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverNebulaSecurity"
+  }
+}

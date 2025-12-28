@@ -1,0 +1,23 @@
+{
+  "name": "MPVirtualNetOperatorSDK",
+  "version": "1.0.0.231124102737",
+  "summary": "MPVirtualNetOperatorSDK - 支付宝钱包MPVirtualNetOperatorSDK类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPVirtualNetOperatorSDK/1_0_0_231124102737.tar.gz"
+  },
+  "resources": "",
+  "vendored_frameworks": [
+    "account_login_sdk_noui_core.framework",
+    "EAccountApiSDK.framework",
+    "TYRZUISDK.framework",
+    "OAuth.framework"
+  ],
+  "requires_arc": true
+}

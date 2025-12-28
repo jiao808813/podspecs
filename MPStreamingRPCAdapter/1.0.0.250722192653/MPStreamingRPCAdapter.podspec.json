@@ -1,0 +1,26 @@
+{
+  "name": "MPStreamingRPCAdapter",
+  "version": "1.0.0.250722192653",
+  "summary": "MPStreamingRPCAdapter - 支付宝钱包MPStreamingRPCAdapter类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPStreamingRPCAdapter/1_0_0_250722192653.tar.gz"
+  },
+  "preserve_paths": "MPStreamingRPCAdapter.framework/*",
+  "resources": "MPStreamingRPCAdapter.framework/*.bundle",
+  "dependencies": {
+    "ATEdgeNetwork": [],
+    "mPaas": []
+  },
+  "vendored_frameworks": "MPStreamingRPCAdapter.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPStreamingRPCAdapter"
+  }
+}

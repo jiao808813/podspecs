@@ -1,0 +1,34 @@
+{
+  "name": "MPCubeEngin",
+  "version": "1.0.0.230825184648",
+  "summary": "MPCubeEngin - 支付宝钱包MPCubeEngin类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPCubeEngin/1_0_0_230825184648.tar.gz"
+  },
+  "preserve_paths": "MPCubeEngin.framework/*",
+  "dependencies": {
+    "AntCube": [],
+    "APConfig": [],
+    "APMobileFramework": [],
+    "AriverNebulaSDK": [],
+    "AriverNebula": [],
+    "AriverNebulaLogging": [],
+    "AriverNebulaConfig": [],
+    "AriverKernel": [],
+    "NebulaResource": [],
+    "NebulaApp": [],
+    "NebulaEngine": []
+  },
+  "vendored_frameworks": "MPCubeEngin.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPCubeEngin"
+  }
+}

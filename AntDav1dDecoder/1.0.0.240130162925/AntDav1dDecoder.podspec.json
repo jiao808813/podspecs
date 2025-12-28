@@ -1,0 +1,22 @@
+{
+  "name": "AntDav1dDecoder",
+  "version": "1.0.0.240130162925",
+  "summary": "AntDav1dDecoder - 支付宝钱包AntDav1dDecoder类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AntDav1dDecoder/1_0_0_240130162925.tar.gz"
+  },
+  "preserve_paths": "AntDav1dDecoder.framework/*",
+  "resources": "AntDav1dDecoder.framework/*.bundle",
+  "vendored_frameworks": "AntDav1dDecoder.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AntDav1dDecoder"
+  }
+}

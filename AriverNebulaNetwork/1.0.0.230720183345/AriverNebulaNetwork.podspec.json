@@ -1,0 +1,39 @@
+{
+  "name": "AriverNebulaNetwork",
+  "version": "1.0.0.230720183345",
+  "summary": "AriverNebulaNetwork - 支付宝钱包AriverNebulaNetwork类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverNebulaNetwork/1_0_0_230720183345.tar.gz"
+  },
+  "preserve_paths": "AriverNebulaNetwork.framework/*",
+  "resources": "AriverNebulaNetwork.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "AntUI": [],
+    "AriverNebula": [],
+    "AriverNebulaPoseidon": [],
+    "AriverNebulaSDK": [],
+    "AriverNebulaConfig": [],
+    "AriverNebulaLogging": [],
+    "MASSProxy": [],
+    "AriverKernel": [],
+    "AriverApp": [],
+    "NebulaResource": [],
+    "MPDataCenter": [],
+    "AriverSecurity": [],
+    "mPaas": []
+  },
+  "vendored_frameworks": "AriverNebulaNetwork.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverNebulaNetwork"
+  }
+}

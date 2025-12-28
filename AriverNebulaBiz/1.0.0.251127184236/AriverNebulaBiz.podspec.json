@@ -1,0 +1,45 @@
+{
+  "name": "AriverNebulaBiz",
+  "version": "1.0.0.251127184236",
+  "summary": "AriverNebulaBiz - 支付宝钱包NAriverNebulaBiz类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverNebulaBiz/1_0_0_251127184236.tar.gz"
+  },
+  "preserve_paths": "AriverNebulaBiz.framework/*",
+  "resources": "AriverNebulaBiz.framework/*.bundle",
+  "dependencies": {
+    "APMobileFramework": [],
+    "APCommonUI": [],
+    "AriverNebula": [],
+    "AriverNebulaKernel": [],
+    "AriverNebulaAppBiz": [],
+    "AntUI": [],
+    "AriverNebulaLogging": [],
+    "AriverNebulaTinyapp": [],
+    "NebulaResource": [],
+    "AriverRuntime": [],
+    "AriverKernel": [],
+    "AriverResource": [],
+    "AriverApp": [],
+    "AriverApi": [],
+    "AriverTinyAppCommon": [],
+    "AriverNebulaConfig": [],
+    "MPDataCenter": [],
+    "AriverComponent": [],
+    "mPaas": [],
+    "NBInside": []
+  },
+  "frameworks": "MessageUI",
+  "vendored_frameworks": "AriverNebulaBiz.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverNebulaBiz"
+  }
+}

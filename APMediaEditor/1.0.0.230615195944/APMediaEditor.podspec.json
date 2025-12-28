@@ -1,0 +1,31 @@
+{
+  "name": "APMediaEditor",
+  "version": "1.0.0.230615195944",
+  "summary": "APMediaEditor - 支付宝钱包APMediaEditor类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMediaEditor/1_0_0_230615195944.tar.gz"
+  },
+  "preserve_paths": "APMediaEditor.framework/*",
+  "resources": "APMediaEditor.framework/*.bundle",
+  "dependencies": {
+    "APMobileFramework": [],
+    "Blox": [],
+    "APMUtils": [],
+    "APMImageProcessing": [],
+    "APMModelManager": [],
+    "APMFile": [],
+    "APMImageEffector": []
+  },
+  "vendored_frameworks": "APMediaEditor.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APMediaEditor"
+  }
+}

@@ -1,0 +1,6806 @@
+{
+  "baseline": "cp_change_15200851",
+  "updateTime": 1763345915,
+  "version_code": 58,
+  "frameworks": [
+    {
+      "name": "MPSecuritySDKCoreAdapter",
+      "version": "1.0.0.240530172831",
+      "dependencies": [
+        "mPaas",
+        "APLog",
+        "APPSecuritySDKCore",
+        "APPSecurityMPaasAdapter",
+        "APMobileNetwork",
+        "MPMgsAdapter"
+      ],
+      "resources": [
+        "MPSecuritySDKCoreAdapter.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "Ant3DEngine",
+      "version": "1.0.0.210318195248",
+      "dependencies": [],
+      "resources": [
+        "Ant3DEngine.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APTSDB",
+      "version": "1.0.0.210630134804",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "APConfig"
+      ],
+      "resources": [
+        "APTSDB.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "opus",
+      "version": "1.0.0.211216140716",
+      "dependencies": [],
+      "resources": [
+        "opus.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APScreenShare",
+      "version": "1.0.0.211217172806",
+      "dependencies": [
+        "libyuv"
+      ],
+      "resources": [
+        "APScreenShare.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "libyuv",
+      "version": "1.0.0.211217172806",
+      "dependencies": [],
+      "resources": [
+        "libyuv.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APCocoaAsyncSocket",
+      "version": "1.0.0.220223173209",
+      "dependencies": [],
+      "resources": [
+        "APCocoaAsyncSocket.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPZolozExt",
+      "version": "1.0.0.220720115015",
+      "dependencies": [
+        "zolozIdentitySDK",
+        "APRemoteLogging"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AlipaySDK",
+      "version": "1.0.0.220721172456",
+      "dependencies": [],
+      "resources": [
+        "AlipaySDK.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMModelManager",
+      "version": "1.0.0.220728210646",
+      "dependencies": [
+        "APMultimedia"
+      ],
+      "resources": [
+        "APMModelManager.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPZolozSecurityAdapter",
+      "version": "1.0.0.220902175422",
+      "dependencies": [
+        "zolozAppSecurityBuildSDK",
+        "APMobileNetwork",
+        "APConfig",
+        "APPSecuritySDKCore",
+        "MPSecurityDetectAdapter",
+        "APRemoteLogging",
+        "APSecDeviceSensorInfo",
+        "MPUTDIDAdapter",
+        "UTDID",
+        "APPSecurityMPaasAdapter",
+        "MPMgsAdapter"
+      ],
+      "resources": [
+        "MPZolozSecurityAdapter.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MJRefresh",
+      "version": "1.0.0.220914180034",
+      "dependencies": [],
+      "resources": [
+        "MJRefresh.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "ARTVC",
+      "version": "1.0.0.221115111246",
+      "dependencies": [
+        "APMUtils",
+        "SocketRocket",
+        "APMLogging",
+        "mPaas"
+      ],
+      "resources": [
+        "ARTVC.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "CoreMotion",
+        "ReplayKit",
+        "SystemConfiguration",
+        "CoreTelephony",
+        "UIKit",
+        "GLKit",
+        "OpenGLES",
+        "CoreMedia",
+        "AVFoundation",
+        "VideoToolbox",
+        "AudioToolbox"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPIDRSProcess",
+      "version": "1.0.0.221207160845",
+      "dependencies": [
+        "MPIDRSSDK",
+        "APMUtils",
+        "Texel"
+      ],
+      "resources": [
+        "MPIDRSProcess.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPIDRSSDK",
+      "version": "1.0.0.230104191430",
+      "dependencies": [],
+      "resources": [
+        "MPIDRSSDK.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APProtocolBuffers",
+      "version": "1.0.1.230223103631",
+      "dependencies": [],
+      "resources": [
+        "APProtocolBuffers.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPGMAdapter",
+      "version": "1.0.0.230223110808",
+      "dependencies": [
+        "APLog",
+        "APOpenSSL"
+      ],
+      "resources": [
+        "MPGMAdapter.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APNetworkTransport",
+      "version": "1.0.0.230223113341",
+      "dependencies": [],
+      "resources": [
+        "APNetworkTransport.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPSecNetworkAdapter",
+      "version": "1.0.0.230223114526",
+      "dependencies": [
+        "MPSecNetworkKit",
+        "APLog",
+        "APOpenSSL",
+        "MPGMAdapter"
+      ],
+      "resources": [
+        "MPSecNetworkAdapter.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "SecurityGuardSDK",
+      "version": "2.2.3.230223114620",
+      "dependencies": [],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [
+        "CoreMotion"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPMdcAdapter",
+      "version": "1.0.0.230223132134",
+      "dependencies": [
+        "MPMDC"
+      ],
+      "resources": [
+        "MPMdcAdapter.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "xNN",
+      "version": "1.0.2.230227172725",
+      "dependencies": [
+        "APMUtils"
+      ],
+      "resources": [
+        "xNN.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "Nebula",
+      "version": "1.0.0.230302170017",
+      "dependencies": [
+        "APMobileFramework",
+        "APMobileNetwork",
+        "NebulaSDK",
+        "SDWebImage",
+        "NebulaKernel"
+      ],
+      "resources": [],
+      "headers": [
+        "<Nebula/Nebula.h>"
+      ],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "NebulaKernel",
+      "version": "1.0.0.230302171736",
+      "dependencies": [
+        "NebulaPoseidon"
+      ],
+      "resources": [
+        "NebulaKernel.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "NebulaSecurity",
+      "version": "1.0.0.230302173814",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "Nebula",
+        "NebulaSDK",
+        "TinyAppCommon",
+        "MPDataCenter",
+        "mPaas"
+      ],
+      "resources": [
+        "NebulaSecurity.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "NebulaAppBiz",
+      "version": "1.0.0.230302174722",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "NebulaSDK",
+        "APConfig",
+        "AntUI",
+        "MPDataCenter",
+        "MASSProxy",
+        "APLog",
+        "Nebula",
+        "NebulaLogging",
+        "mPaas"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "Lottie",
+      "version": "1.0.0.230302194546",
+      "dependencies": [],
+      "resources": [
+        "Lottie.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "GLKit"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPMDSGrayService",
+      "version": "1.0.0.230302195958",
+      "dependencies": [
+        "APMobileNetwork",
+        "APProtocolBuffers"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "NebulaTinyAppDebug",
+      "version": "1.0.0.230303153458",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "Nebula",
+        "NebulaSDK",
+        "NebulaNetwork",
+        "TinyAppCommon",
+        "AntUI"
+      ],
+      "resources": [
+        "NebulaTinyAppDebug.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "TinyAppCommon",
+      "version": "1.0.0.230303154331",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "Nebula",
+        "APMultimedia",
+        "NebulaTinyapp",
+        "NebulaConfig",
+        "mPaas",
+        "AntUI"
+      ],
+      "resources": [
+        "TinyAppCommon.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPModelManager",
+      "version": "1.0.0.230306134608",
+      "dependencies": [
+        "mPaas",
+        "APLog",
+        "APProtocolBuffers",
+        "APMobileNetwork"
+      ],
+      "resources": [
+        "MPModelManager.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": [
+        "z",
+        "c++"
+      ]
+    },
+    {
+      "name": "AMapFoundationKit",
+      "version": "1.0.0.230306162625",
+      "dependencies": [],
+      "resources": [
+        "AMapFoundationKit.framework/*.bundle"
+      ],
+      "headers": [
+        "<AMapFoundationKit/AMapFoundationKit.h>"
+      ],
+      "systemFrameworks": [
+        "CoreLocation"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "AMapSearchKit",
+      "version": "1.0.0.230306162625",
+      "dependencies": [],
+      "resources": [
+        "AMapSearchKit.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPLBSAdapter",
+      "version": "1.0.0.230306164520",
+      "dependencies": [
+        "APMobileLBS"
+      ],
+      "resources": [
+        "MPLBSAdapter.framework/*.bundle"
+      ],
+      "headers": [
+        "<MPLBSAdapter/MPLBSAdapter.h>"
+      ],
+      "systemFrameworks": [],
+      "systemLibraries": [
+        "z",
+        "c++"
+      ]
+    },
+    {
+      "name": "MAMapKit",
+      "version": "2.4.0.230306171135",
+      "dependencies": [],
+      "resources": [
+        "MAMapKit.framework/*.bundle"
+      ],
+      "headers": [
+        "<MAMapKit/MAMapKit.h>"
+      ],
+      "systemFrameworks": [
+        "CoreLocation",
+        "GLKit"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "APConfig",
+      "version": "1.0.0.230323150339",
+      "dependencies": [
+        "APLog",
+        "mPaas",
+        "APMobileFramework",
+        "APMobileNetwork",
+        "APRemoteLogging",
+        "MPDataCenter",
+        "APProtocolBuffers"
+      ],
+      "resources": [],
+      "headers": [
+        "<APConfig/APConfigService.h>"
+      ],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPDiagnosis",
+      "version": "1.0.0.230323151257",
+      "dependencies": [
+        "MPLongLinkService",
+        "mPaas"
+      ],
+      "resources": [
+        "MPDiagnosis.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPGMSSLService",
+      "version": "1.0.0.230406114136",
+      "dependencies": [],
+      "resources": [
+        "MPGMSSLService.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPZolozAdapter",
+      "version": "1.0.0.230414112111",
+      "dependencies": [
+        "zolozIdentitySDK"
+      ],
+      "resources": [
+        "MPZolozAdapter.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMImageEffector",
+      "version": "1.0.0.230509160411",
+      "dependencies": [
+        "Blox"
+      ],
+      "resources": [
+        "APMImageEffector.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPAntSSM",
+      "version": "1.0.0.230523113201",
+      "dependencies": [],
+      "resources": [
+        "MPAntSSM.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPZolozUIExt",
+      "version": "1.0.0.230524144301",
+      "dependencies": [
+        "zolozOpenUISDK"
+      ],
+      "resources": [
+        "MPZolozUIExt.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "UIKit"
+      ],
+      "systemLibraries": [
+        "c++",
+        "z"
+      ]
+    },
+    {
+      "name": "FFMpeg",
+      "version": "1.0.0.230606143712",
+      "dependencies": [],
+      "resources": [
+        "FFMpeg.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "Blox",
+      "version": "1.0.0.230615174413",
+      "dependencies": [
+        "XMedia",
+        "APMUtils",
+        "Texel",
+        "APMediaBasic",
+        "APMImageProcessing",
+        "Ant3DEngine",
+        "AriverCommonability",
+        "APRemoteLogging",
+        "AntGraphic",
+        "AntCanvas",
+        "AOMPFileManager"
+      ],
+      "resources": [
+        "Blox.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMediaEditor",
+      "version": "1.0.0.230615195944",
+      "dependencies": [
+        "APMobileFramework",
+        "Blox",
+        "APMUtils",
+        "APMImageProcessing",
+        "APMModelManager",
+        "APMFile",
+        "APMImageEffector"
+      ],
+      "resources": [
+        "APMediaEditor.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPHotpatchSDK",
+      "version": "1.0.0.230619134350",
+      "dependencies": [
+        "APProtocolBuffers",
+        "APRemoteLogging",
+        "mPaas",
+        "APMobileNetwork",
+        "APOpenSSL",
+        "MPMpaaSService"
+      ],
+      "resources": [
+        "MPHotpatchSDK.framework/*.bundle"
+      ],
+      "headers": [
+        "<MPHotpatchSDK/MPHotpatchSDK.h>"
+      ],
+      "systemFrameworks": [],
+      "systemLibraries": [
+        "z",
+        "c++"
+      ]
+    },
+    {
+      "name": "AOMPDevice",
+      "version": "1.0.0.230625111813",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "NebulaSDK",
+        "NebulaPoseidon",
+        "NebulaKernel",
+        "TinyAppCommon"
+      ],
+      "resources": [
+        "AOMPDevice.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "AddressBook",
+        "AddressBookUI",
+        "Contacts",
+        "ContactsUI",
+        "NetworkExtension"
+      ],
+      "systemLibraries": [
+        "bz2"
+      ]
+    },
+    {
+      "name": "NebulaNetwork",
+      "version": "1.0.0.230707150227",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "AntUI",
+        "Nebula",
+        "NebulaPoseidon",
+        "NebulaSDK",
+        "NebulaLogging",
+        "MASSProxy",
+        "SocketRocket",
+        "MPDataCenter",
+        "mPaas"
+      ],
+      "resources": [
+        "NebulaNetwork.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "NebulaConfig",
+      "version": "1.0.0.230707171754",
+      "dependencies": [
+        "Nebula",
+        "APMobileFramework",
+        "APConfig",
+        "mPaas"
+      ],
+      "resources": [
+        "NebulaConfig.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AOMPFileManager",
+      "version": "1.0.0.230707173810",
+      "dependencies": [
+        "Nebula",
+        "NebulaSDK",
+        "NebulaAppManager",
+        "NebulaPoseidon",
+        "APMultimedia",
+        "APMobileFramework",
+        "NebulaKernel",
+        "NebulaTinyAppDebug",
+        "MPDataCenter",
+        "APConfig",
+        "APMobileNetwork",
+        "MASSProxy",
+        "TinyAppCommon",
+        "mPaas"
+      ],
+      "resources": [
+        "AOMPFileManager.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "QuickLook"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPFaceShieldAdapter",
+      "version": "1.0.0.230713113620",
+      "dependencies": [
+        "mPaas",
+        "APLog",
+        "MPSecuritySDKCoreAdapter"
+      ],
+      "resources": [
+        "MPFaceShieldAdapter.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AGSkia",
+      "version": "1.0.0.230714170908",
+      "dependencies": [],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AntCanvas",
+      "version": "1.0.0.230714170908",
+      "dependencies": [
+        "AUBase",
+        "AntGraphic"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "GCanvas4Alipay",
+      "version": "1.0.0.230714170908",
+      "dependencies": [],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [
+        "Foundation",
+        "UIKit",
+        "GLKit",
+        "CoreMedia",
+        "AVFoundation"
+      ],
+      "systemLibraries": [
+        "stdc++"
+      ]
+    },
+    {
+      "name": "YouKuPlayer",
+      "version": "1.0.0.230719191427",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "BeeYouKuUPS",
+        "APConfig",
+        "FFMpeg"
+      ],
+      "resources": [
+        "YouKuPlayer.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "AudioToolBox",
+        "CoreMedia",
+        "VideoToolbox",
+        "AVFoundation",
+        "GLKit"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverNebulaKernel",
+      "version": "1.0.0.230720122334",
+      "dependencies": [
+        "AriverNebulaPoseidon",
+        "AriverKernel",
+        "AriverApp"
+      ],
+      "resources": [
+        "AriverNebulaKernel.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverNebulaNetwork",
+      "version": "1.0.0.230720183345",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "AntUI",
+        "AriverNebula",
+        "AriverNebulaPoseidon",
+        "AriverNebulaSDK",
+        "AriverNebulaConfig",
+        "AriverNebulaLogging",
+        "MASSProxy",
+        "AriverKernel",
+        "AriverApp",
+        "NebulaResource",
+        "MPDataCenter",
+        "AriverSecurity",
+        "mPaas"
+      ],
+      "resources": [
+        "AriverNebulaNetwork.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverNebulaSecurity",
+      "version": "1.0.0.230720200711",
+      "dependencies": [
+        "APMobileNetwork",
+        "AriverNebula",
+        "AriverNebulaSDK",
+        "AriverApi",
+        "AriverSecurity",
+        "AriverNebulaAppBiz",
+        "MPDataCenter",
+        "AriverNebulaConfig",
+        "APProtocolBuffers",
+        "APRemoteLogging",
+        "mPaas"
+      ],
+      "resources": [
+        "AriverNebulaSecurity.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverNebulaTinyapp",
+      "version": "1.0.0.230720210522",
+      "dependencies": [
+        "AriverNebulaSDK",
+        "AriverNebulaLogging",
+        "AriverRuntime"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "FullLinkTracker",
+      "version": "1.0.0.230726095732",
+      "dependencies": [
+        "APMobileFramework",
+        "APLog",
+        "APRemoteLogging",
+        "APConfig",
+        "MPDataCenter",
+        "mPaas",
+        "APMobileNetwork",
+        "AutoTracker",
+        "AriverNebulaSDK",
+        "AriverNebulaPoseidon",
+        "SPMTracker"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverNebulaAppManager",
+      "version": "1.0.0.230728110054",
+      "dependencies": [
+        "NebulaResource",
+        "AriverResource"
+      ],
+      "resources": [
+        "AriverNebulaAppManager.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverNebulaConfig",
+      "version": "1.0.0.230803160553",
+      "dependencies": [
+        "AriverNebula",
+        "APMobileFramework",
+        "APConfig",
+        "mPaas"
+      ],
+      "resources": [
+        "AriverNebulaConfig.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverRuntime",
+      "version": "10.1.92.230803160553",
+      "dependencies": [
+        "AriverApp",
+        "AriverConfig",
+        "AriverLogger"
+      ],
+      "resources": [
+        "AriverRuntime.framework/*.bundle",
+        "Resources/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "WebKit",
+        "JavaScriptCore"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverSecurity",
+      "version": "10.1.92.230807165439",
+      "dependencies": [
+        "AriverApp",
+        "AriverApi",
+        "AriverConfig"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverConfig",
+      "version": "10.1.92.240627120330",
+      "dependencies": [],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "zolozAppSecurityBuildSDK",
+      "version": "4.7.1.230817094349",
+      "dependencies": [
+        "zolozIdentitySDK",
+        "APPSecuritySDKCore"
+      ],
+      "resources": [
+        "zolozAppSecurityBuildSDK.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "ZetaToygerServiceAlgo",
+      "version": "4.7.1.230817094444",
+      "dependencies": [],
+      "resources": [
+        "ZetaToygerServiceAlgo.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "zolozOpenUISDK",
+      "version": "4.5.0.230817095013",
+      "dependencies": [
+        "zolozIdentitySDK"
+      ],
+      "resources": [
+        "zolozOpenUISDK.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPCubeEngin",
+      "version": "1.0.0.230825184648",
+      "dependencies": [
+        "AntCube",
+        "APConfig",
+        "APMobileFramework",
+        "AriverNebulaSDK",
+        "AriverNebula",
+        "AriverNebulaLogging",
+        "AriverNebulaConfig",
+        "AriverKernel",
+        "NebulaResource",
+        "NebulaApp",
+        "NebulaEngine"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "NebulaEngine",
+      "version": "1.0.0.230828102935",
+      "dependencies": [
+        "AriverNebulaPoseidon",
+        "APLog",
+        "AriverNebulaKernel",
+        "AriverKernel",
+        "AriverApp",
+        "AriverNebulaAppManager",
+        "AriverNebulaSDK",
+        "NBInside",
+        "NebulaApp"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverNebulaAppBiz",
+      "version": "1.0.0.230828155231",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "AriverNebulaSDK",
+        "APConfig",
+        "APLog",
+        "AriverNebula",
+        "AriverNebulaLogging",
+        "AriverResource",
+        "AntUI",
+        "mPaas",
+        "NBInside"
+      ],
+      "resources": [
+        "AriverNebulaAppBiz.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPFlowAntiFraud",
+      "version": "1.0.0.230907145530",
+      "dependencies": [
+        "mPaas",
+        "APLog",
+        "MPSecuritySDKCoreAdapter"
+      ],
+      "resources": [
+        "MPFlowAntiFraud.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPFlowAntiSpider",
+      "version": "1.0.0.230907145530",
+      "dependencies": [
+        "mPaas",
+        "APLog",
+        "MPSecuritySDKCoreAdapter"
+      ],
+      "resources": [
+        "MPFlowAntiSpider.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPFlowVulnerabilityShield",
+      "version": "1.0.0.230907145530",
+      "dependencies": [
+        "mPaas",
+        "APLog",
+        "MPSecuritySDKCoreAdapter"
+      ],
+      "resources": [
+        "MPFlowVulnerabilityShield.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPDeviceIdentityExt",
+      "version": "1.0.0.230914140325",
+      "dependencies": [],
+      "resources": [
+        "MPDeviceIdentityExt.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "UIKit",
+        "SystemConfiguration",
+        "CoreLocation",
+        "CoreTelephony"
+      ],
+      "systemLibraries": [
+        "c++",
+        "z"
+      ]
+    },
+    {
+      "name": "AntGraphic",
+      "version": "1.0.0.230919103347",
+      "dependencies": [
+        "AGSkia"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPContentRPC",
+      "version": "1.0.0.230922143124",
+      "dependencies": [
+        "APMobileNetwork",
+        "APProtocolBuffers"
+      ],
+      "resources": [
+        "MPContentRPC.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MediaFlow",
+      "version": "1.0.0.231008141834",
+      "dependencies": [],
+      "resources": [
+        "MediaFlow.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPMssAdapter",
+      "version": "1.0.0.231009192856",
+      "dependencies": [
+        "MPLongLinkService",
+        "APRemoteLogging"
+      ],
+      "resources": [],
+      "headers": [
+        "<MPMssAdapter/MPSyncInterface.h>"
+      ],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPNEARXAdapter",
+      "version": "1.0.0.231110143617",
+      "dependencies": [
+        "mPaas",
+        "APLog",
+        "MPSecuritySDKCoreAdapter"
+      ],
+      "resources": [
+        "MPNEARXAdapter.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APOpenSDK",
+      "version": "1.0.0.231214153546",
+      "dependencies": [],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "DTShareKit",
+      "version": "1.0.0.231214153546",
+      "dependencies": [],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPaaSCryptoSDK",
+      "version": "1.0.0.240228202929",
+      "dependencies": [
+        "APOpenSSL",
+        "MPAntSSM",
+        "APLog"
+      ],
+      "resources": [
+        "MPaaSCryptoSDK.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": [
+        "c++"
+      ]
+    },
+    {
+      "name": "BinAOP",
+      "version": "1.0.0.240229112218",
+      "dependencies": [
+        "mPaas",
+        "APRemoteLogging",
+        "APConfig",
+        "APMobileFramework",
+        "APMobileNetwork",
+        "MPDataCenter",
+        "TianYan",
+        "APCrashReporter"
+      ],
+      "resources": [
+        "BinAOP.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "Contacts",
+        "AVFoundation",
+        "CoreBluetooth",
+        "Photos",
+        "CoreLocation",
+        "EventKit",
+        "AudioToolbox",
+        "AssetsLibrary"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "NebulaBiz",
+      "version": "1.0.0.240307181700",
+      "dependencies": [
+        "APMobileFramework",
+        "APCommonUI",
+        "APRemoteLogging",
+        "APWebP",
+        "Nebula",
+        "NebulaKernel",
+        "APMultimedia",
+        "NebulaAppBiz",
+        "AntUI",
+        "NebulaLogging",
+        "NebulaTinyapp",
+        "NebulaConfig",
+        "MPDataCenter",
+        "TinyAppCommon",
+        "NebulaNetwork",
+        "NebulaSecurity",
+        "mPaas",
+        "APOpenSSL",
+        "APMVideo"
+      ],
+      "resources": [
+        "NebulaBiz.framework/*.bundle"
+      ],
+      "headers": [
+        "<NebulaBiz/H5WKWebView.h>"
+      ],
+      "systemFrameworks": [
+        "AudioToolBox",
+        "AVFoundation"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "APOpenSSL",
+      "version": "1.0.0.240313134806",
+      "dependencies": [],
+      "resources": [
+        "APOpenSSL.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "TBDecodeSDK",
+      "version": "1.0.0.240313154222",
+      "dependencies": [
+        "xNN",
+        "libCVEngine",
+        "APLog"
+      ],
+      "resources": [
+        "TBDecodeSDK.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": [
+        "stdc++"
+      ]
+    },
+    {
+      "name": "AriverNebulaPoseidon",
+      "version": "1.0.0.240314192810",
+      "dependencies": [
+        "AriverKernel",
+        "APLog"
+      ],
+      "resources": [
+        "AriverNebulaPoseidon.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AOMPNetwork",
+      "version": "1.0.0.240314192921",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "AriverNebula",
+        "AriverNebulaPoseidon",
+        "AriverNebulaSDK",
+        "AriverNebulaConfig",
+        "AriverNebulaNetwork",
+        "AriverTinyappService"
+      ],
+      "resources": [
+        "AOMPNetwork.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "XMediaCoreBiz",
+      "version": "1.0.0.240315182017",
+      "dependencies": [
+        "XMedia"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverNebula",
+      "version": "1.0.0.240326163436",
+      "dependencies": [
+        "APMobileFramework",
+        "APMobileNetwork",
+        "AriverNebulaSDK",
+        "AriverKernel",
+        "AriverResource",
+        "AriverApp"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "NebulaTinyapp",
+      "version": "1.0.0.240718114750",
+      "dependencies": [
+        "NebulaSDK",
+        "NebulaLogging",
+        "Nebula"
+      ],
+      "resources": [
+        "NebulaTinyapp.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "JavaScriptCore"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPMgsAdapter",
+      "version": "1.0.0.240724143439",
+      "dependencies": [
+        "APMobileNetwork",
+        "mPaas"
+      ],
+      "resources": [],
+      "headers": [
+        "<MPMgsAdapter/MPRpcInterface.h>"
+      ],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APPSecurityMPaasAdapter",
+      "version": "1.0.0.241101100705",
+      "dependencies": [
+        "APMobileNetwork"
+      ],
+      "resources": [
+        "APPSecurityMPaasAdapter.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "Canvas",
+      "version": "1.0.0.240416150717",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "APMobileLBS",
+        "APRemoteLogging",
+        "mPaaSHeader",
+        "APConfig",
+        "APProtocolBuffers",
+        "APMultimedia",
+        "AntUI",
+        "APLog",
+        "GCanvas4Alipay",
+        "AntGraphic",
+        "AntCanvas",
+        "BeePhoto",
+        "AriverAOMPFileManager"
+      ],
+      "resources": [
+        "Canvas.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APPSecuritySDKCore",
+      "version": "1.0.0.241125113633",
+      "dependencies": [],
+      "resources": [
+        "APPSecuritySDK.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "NebulamPaaSBiz",
+      "version": "1.0.0.241125172817",
+      "dependencies": [
+        "NebulaSDK",
+        "MPMpaaSService"
+      ],
+      "resources": [],
+      "headers": [
+        "<NebulamPaaSBiz/NebulamPaaSBiz.h>"
+      ],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "NebulaAppManager",
+      "version": "1.3.0.241125173101",
+      "dependencies": [
+        "APLog",
+        "APOpenSSL"
+      ],
+      "resources": [
+        "NebulaAppManager.framework/*.bundle"
+      ],
+      "headers": [
+        "<NebulaAppManager/NebulaAppManager.h>"
+      ],
+      "systemFrameworks": [],
+      "systemLibraries": [
+        "bz2"
+      ]
+    },
+    {
+      "name": "APSecurityUtility",
+      "version": "1.2.0.171012202618",
+      "dependencies": [],
+      "resources": [
+        "APSecurityUtility.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverFileManager",
+      "version": "1.0.0.241223142036",
+      "dependencies": [
+        "AriverKernel",
+        "AriverApp",
+        "AriverApi",
+        "AriverResource"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "NebulaPoseidon",
+      "version": "1.3.0.241223162522",
+      "dependencies": [
+        "APLog",
+        "MPGMAdapter"
+      ],
+      "resources": [
+        "NebulaPoseidon.framework/*.bundle"
+      ],
+      "headers": [
+        "<NebulaPoseidon/NebulaPoseidon.h>"
+      ],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPGMSSLAdapter",
+      "version": "1.0.0.240424172504",
+      "dependencies": [
+        "APLog",
+        "MPGMAdapter",
+        "MASSProxy",
+        "NetworkCtlService"
+      ],
+      "resources": [
+        "MPGMSSLAdapter.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": [
+        "resolv"
+      ]
+    },
+    {
+      "name": "MPNebulaAdapter",
+      "version": "1.0.0.250217193035",
+      "dependencies": [
+        "NebulaSDK",
+        "NebulaAppManager",
+        "NebulamPaaSBiz",
+        "NebulaLogging",
+        "mPaas",
+        "APMobileNetwork",
+        "AntUI",
+        "APMobileFramework",
+        "NebulaKernel",
+        "NebulaHeader",
+        "APConfig"
+      ],
+      "resources": [
+        "MPNebulaAdapter.framework/*.bundle"
+      ],
+      "headers": [
+        "<MPNebulaAdapter/MPNebulaAdapterInterface.h>"
+      ],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "NebulaLogging",
+      "version": "1.0.0.250220154412",
+      "dependencies": [
+        "NebulaSDK",
+        "APRemoteLogging",
+        "AutoTracker",
+        "NebulaConfig"
+      ],
+      "resources": [
+        "NebulaLogging.framework/*.bundle"
+      ],
+      "headers": [
+        "<NebulaLogging/NebulaLogging.h>"
+      ],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APSecDeviceSensorInfo",
+      "version": "1.0.8.180612151558",
+      "dependencies": [],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "TinyappService",
+      "version": "1.0.0.250317142605",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "Nebula",
+        "NebulaAppBiz",
+        "TinyAppCommon",
+        "NebulaTinyAppDebug",
+        "APRemoteLogging",
+        "NebulaBiz",
+        "NebulaSecurity",
+        "NebulaTinyapp",
+        "APProtocolBuffers",
+        "APConfig",
+        "NebulaSDKPlugins",
+        "mPaas"
+      ],
+      "resources": [
+        "TinyappService.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPBaseTest",
+      "version": "1.0.0.250321154112",
+      "dependencies": [
+        "APLog"
+      ],
+      "resources": [
+        "MPBaseTest.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "EventKit",
+        "QuickLook",
+        "Contacts",
+        "ContactsUI",
+        "AddressBook",
+        "AddressBookUI",
+        "Photos"
+      ],
+      "systemLibraries": [
+        "z",
+        "c++"
+      ]
+    },
+    {
+      "name": "AriverContact",
+      "version": "1.0.0.250401205523",
+      "dependencies": [
+        "AriverKernel",
+        "AriverApp"
+      ],
+      "resources": [
+        "AriverContact.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "Contacts",
+        "ContactsUI",
+        "AddressBook"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverWifi",
+      "version": "1.0.0.250402103201",
+      "dependencies": [
+        "AriverKernel",
+        "AriverApp",
+        "AriverRuntime"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [
+        "NetworkExtension"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "NebulaSDK",
+      "version": "1.0.0.250402115625",
+      "dependencies": [
+        "NebulaPoseidon",
+        "NebulaAppManager",
+        "SDWebImage",
+        "APLog"
+      ],
+      "resources": [
+        "NebulaSDK.framework/*.bundle"
+      ],
+      "headers": [
+        "<NebulaSDK/NebulaSDK.h>",
+        "<NebulaSDK/NBPluginBase.h>"
+      ],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "WeiboSDK",
+      "version": "1.0.0.250402135925",
+      "dependencies": [],
+      "resources": [
+        "WeiboSDK.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "TencentOpenAPI",
+      "version": "1.0.0.250402135925",
+      "dependencies": [],
+      "resources": [
+        "TencentOpenAPI.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "WechatOpenSDK",
+      "version": "1.0.0.250402135925",
+      "dependencies": [],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverNebulamPaaSBiz",
+      "version": "1.0.0.250428152050",
+      "dependencies": [
+        "AriverNebula",
+        "AriverNebulaSDK",
+        "AriverNebulaAppManager",
+        "NebulaResource",
+        "MPMpaaSService"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "UTDID",
+      "version": "1.0.2.190226130141",
+      "dependencies": [],
+      "resources": [
+        "UTDID.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "SGAVMP",
+      "version": "1.0.0.190319125627",
+      "dependencies": [],
+      "resources": [
+        "SGAVMP.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "NebulaResource",
+      "version": "1.0.0.250519202038",
+      "dependencies": [
+        "AriverApp",
+        "AriverKernel",
+        "AriverResource",
+        "APLog",
+        "mPaas"
+      ],
+      "resources": [
+        "NebulaResource.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": [
+        "z",
+        "c++",
+        "bz2"
+      ]
+    },
+    {
+      "name": "AriverRpc",
+      "version": "1.0.0.250521191247",
+      "dependencies": [
+        "AriverRuntime",
+        "APMobileNetwork",
+        "APProtocolBuffers",
+        "AriverConfig"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPSecurityDetectAdapter",
+      "version": "1.0.0.250530140537",
+      "dependencies": [
+        "mPaas",
+        "APLog",
+        "MPMgsAdapter",
+        "MPSecuritySDKCoreAdapter",
+        "APProtocolBuffers"
+      ],
+      "resources": [
+        "MPSecurityDetectAdapter.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "CoreLocation",
+        "CoreMotion"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "NebulaIntegration",
+      "version": "1.0.0.250603180443",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "AriverNebula",
+        "NebulaApp",
+        "AriverNebulaSDK",
+        "AriverNebulaConfig",
+        "AriverNebulaLogging",
+        "NebulaPlugins",
+        "AriverNebulaTinyapp",
+        "AriverNebulaPoseidon",
+        "NebulaEngine",
+        "AriverKernel",
+        "AriverResource",
+        "AriverRuntime",
+        "NebulaResource",
+        "AriverNebulaAppBiz",
+        "AriverTinyappService",
+        "mPaas",
+        "NBInside",
+        "FullLinkTracker"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverKernel",
+      "version": "10.1.92.250606153021",
+      "dependencies": [],
+      "resources": [
+        "AriverKernel.framework/*.bundle",
+        "Resources/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverBLE",
+      "version": "1.0.0.250613163538",
+      "dependencies": [
+        "AriverKernel",
+        "AriverApp",
+        "AriverConfig",
+        "AriverDeviceCore",
+        "AriverRuntime"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [
+        "CoreBluetooth"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverAOMPFileManager",
+      "version": "1.0.0.250616140351",
+      "dependencies": [
+        "AriverNebula",
+        "AriverNebulaSDK",
+        "AriverNebulaAppManager",
+        "AriverNebulaPoseidon",
+        "APMultimedia",
+        "APMobileFramework",
+        "AriverNebulaKernel",
+        "MPDataCenter",
+        "APConfig",
+        "APMobileNetwork",
+        "MASSProxy",
+        "AriverTinyAppCommon",
+        "AriverFileManager",
+        "mPaas",
+        "NBInside",
+        "APMVideo",
+        "APMVoiceManager"
+      ],
+      "resources": [
+        "AriverAOMPFileManager.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "QuickLook"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPPushSDK",
+      "version": "1.0.0.250620105230",
+      "dependencies": [
+        "APMobileNetwork",
+        "APRemoteLogging",
+        "APProtocolBuffers",
+        "AntNetworkAdapter"
+      ],
+      "resources": [
+        "MPPushSDK.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPPerformance",
+      "version": "1.0.0.250623105119",
+      "dependencies": [
+        "TianYan",
+        "APRemoteLogging",
+        "MPDataCenter",
+        "AutoTracker"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APCrashReporter",
+      "version": "1.0.0.250623105119",
+      "dependencies": [
+        "APLog",
+        "mPaas",
+        "APRemoteLogging"
+      ],
+      "resources": [
+        "APCrashReporter.framework/*.bundle"
+      ],
+      "headers": [
+        "<APCrashReporter/DFCrashReport.h>"
+      ],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "TianYan",
+      "version": "1.0.0.250623105119",
+      "dependencies": [
+        "mPaas"
+      ],
+      "resources": [
+        "TianYan.framework/*.bundle"
+      ],
+      "headers": [
+        "<TianYan/TianYan.h>"
+      ],
+      "systemFrameworks": [
+        "Webkit",
+        "CoreMotion"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPComponentDiagnose",
+      "version": "1.0.0.191011145955",
+      "dependencies": [
+        "MPDevHelper",
+        "MPBaseTest",
+        "APLog"
+      ],
+      "resources": [
+        "MPComponentDiagnose.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": [
+        "z",
+        "c++"
+      ]
+    },
+    {
+      "name": "MPSignatureService",
+      "version": "1.0.0.250703114136",
+      "dependencies": [
+        "APOpenSSL"
+      ],
+      "resources": [
+        "MPSignatureService.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPSignatureAdapter",
+      "version": "1.0.0.250703114213",
+      "dependencies": [
+        "SecurityGuardSDK",
+        "APLog"
+      ],
+      "resources": [
+        "MPSignatureAdapter.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AMRPC",
+      "version": "1.0.0.250703135600",
+      "dependencies": [
+        "AMNet",
+        "AntNetworkAdapter",
+        "APNetworkTransport"
+      ],
+      "resources": [
+        "AMRPC.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APBaseInterfaceAdapter",
+      "version": "1.0.0.250703135805",
+      "dependencies": [],
+      "resources": [
+        "APBaseInterfaceAdapter.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AntWasm",
+      "version": "1.0.0.250703192310",
+      "dependencies": [
+        "APMobileFramework",
+        "APRemoteLogging",
+        "mPaas",
+        "APConfig"
+      ],
+      "resources": [
+        "AntWasm.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AppDoctor",
+      "version": "1.0.0.191016150102",
+      "dependencies": [
+        "MPNebulaAdapter",
+        "APMobileFramework",
+        "Nebula",
+        "APCommonUI",
+        "APConfig",
+        "NebulaSDK",
+        "NebulaPoseidon",
+        "MPDevHelper"
+      ],
+      "resources": [
+        "AppDoctor.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APCubePlayground",
+      "version": "1.0.0.250704154020",
+      "dependencies": [
+        "AntCube"
+      ],
+      "resources": [
+        "APCubePlayground.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "AudioToolbox"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverMPNebulaAdapter",
+      "version": "1.0.0.250717175108",
+      "dependencies": [
+        "AriverNebulaSDK",
+        "AriverNebulaAppManager",
+        "AriverNebulamPaaSBiz",
+        "AriverNebulaLogging",
+        "mPaas",
+        "APMobileNetwork",
+        "AntUI",
+        "APMobileFramework",
+        "AriverNebulaKernel",
+        "NebulaHeader",
+        "APConfig",
+        "NBInside",
+        "NebulaResource",
+        "Masonry"
+      ],
+      "resources": [
+        "AriverMPNebulaAdapter.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPSecurityAdapter",
+      "version": "1.0.0.250721174304",
+      "dependencies": [
+        "APOpenSSL"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AMNet",
+      "version": "1.0.0.250722173422",
+      "dependencies": [
+        "APOpenSSL",
+        "APBaseInterfaceAdapter",
+        "Bifrost"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": [
+        "resolv"
+      ]
+    },
+    {
+      "name": "APStreamingRPC",
+      "version": "1.0.0.250722173543",
+      "dependencies": [
+        "APMobileNetwork",
+        "APRemoteLogging",
+        "AMNet",
+        "APNetworkTransport",
+        "AntNetworkAdapter",
+        "MPSignatureAdapter",
+        "Bifrost"
+      ],
+      "resources": [
+        "APStreamingRPC.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MASSChannel",
+      "version": "1.0.0.250722173543",
+      "dependencies": [
+        "AMNet",
+        "MPDataCenter",
+        "AntNetworkAdapter",
+        "Bifrost",
+        "APProtocolBuffers"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APLongLinkService",
+      "version": "1.0.0.250722173543",
+      "dependencies": [
+        "APMobileNetwork",
+        "APProtocolBuffers",
+        "APLog",
+        "APBaseInterfaceAdapter",
+        "AntNetworkAdapter",
+        "MPDataCenter"
+      ],
+      "resources": [
+        "APLongLinkService.framework/*.bundle"
+      ],
+      "headers": [
+        "<APLongLinkService/APLongLinkService.h>"
+      ],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "Bifrost",
+      "version": "1.0.250722174616",
+      "dependencies": [],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "ATEdgeNetwork",
+      "version": "1.0.0.250722183410",
+      "dependencies": [
+        "APLog",
+        "APRemoteLogging",
+        "APProtocolBuffers",
+        "MASSProxy",
+        "APStreamingRPC",
+        "AntNetworkAdapter",
+        "APMobileNetwork",
+        "AMNet"
+      ],
+      "resources": [
+        "ATEdgeNetwork.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPMDC",
+      "version": "1.0.0.250722184414",
+      "dependencies": [
+        "APLog",
+        "MPDataCenter",
+        "MPSignatureAdapter",
+        "MPNetAnalysis"
+      ],
+      "resources": [
+        "MPMDC.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "NetworkCtlService",
+      "version": "1.0.0.250722192653",
+      "dependencies": [
+        "APMobileNetwork",
+        "APRemoteLogging",
+        "AMRPC",
+        "AMNet",
+        "APProtocolBuffers",
+        "MASSProxy",
+        "MASSChannel",
+        "APLog",
+        "APBaseInterfaceAdapter",
+        "AntNetworkAdapter",
+        "APLongLinkService",
+        "MPSignatureAdapter"
+      ],
+      "resources": [
+        "NetworkCtlService.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPStreamingRPCAdapter",
+      "version": "1.0.0.250722192653",
+      "dependencies": [
+        "ATEdgeNetwork",
+        "mPaas"
+      ],
+      "resources": [
+        "MPStreamingRPCAdapter.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AntNetworkAdapter",
+      "version": "1.0.0.250723114226",
+      "dependencies": [
+        "mPaas",
+        "APLog",
+        "APBaseInterfaceAdapter"
+      ],
+      "resources": [
+        "AntNetworkAdapter.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APSecDeviceInfo",
+      "version": "1.0.0.200214112411",
+      "dependencies": [],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPLicense",
+      "version": "1.0.0.200214195709",
+      "dependencies": [
+        "APOpenSSL"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "XMedia",
+      "version": "1.0.0.250807164605",
+      "dependencies": [
+        "APMUtils",
+        "xNN",
+        "libCVEngine",
+        "APOpenSSL"
+      ],
+      "resources": [
+        "XMedia.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "NBInside",
+      "version": "1.0.0.250807194040",
+      "dependencies": [
+        "APMobileFramework",
+        "APConfig",
+        "APLog",
+        "APRemoteLogging",
+        "mPaas",
+        "AriverNebula",
+        "AriverNebulaLogging",
+        "AriverResource",
+        "AriverApp",
+        "MPDataCenter",
+        "AriverNebulaTinyapp",
+        "AntUI",
+        "TinyTracker",
+        "UTDID",
+        "AriverNebulamPaaSBiz"
+      ],
+      "resources": [
+        "NBInside.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPPinyinSearch",
+      "version": "1.0.1.200228135004",
+      "dependencies": [],
+      "resources": [],
+      "headers": [
+        "<MPPinyinSearch/MPPinyinSearch.h>"
+      ],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPConfigAdapter",
+      "version": "1.0.0.200228135004",
+      "dependencies": [
+        "APConfig"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPBadgeService",
+      "version": "1.0.0.200228135004",
+      "dependencies": [
+        "MPDataCenter"
+      ],
+      "resources": [
+        "MPBadgeService.framework/*.bundle"
+      ],
+      "headers": [
+        "<MPBadgeService/MPBadgeService.h>"
+      ],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPUTDIDAdapter",
+      "version": "1.0.0.200228181431",
+      "dependencies": [
+        "UTDID"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APBLESDK",
+      "version": "1.0.0.200228181541",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "mPaas",
+        "NebulaSDK",
+        "APLog",
+        "APRemoteLogging",
+        "APConfig",
+        "Nebula"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [
+        "CoreBluetooth"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMBeauty",
+      "version": "1.0.0.200302181840",
+      "dependencies": [
+        "APMUtils"
+      ],
+      "resources": [
+        "APMBeauty.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APWebP",
+      "version": "1.0.0.200302192253",
+      "dependencies": [],
+      "resources": [
+        "APWebP.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "NebulaSDKPlugins",
+      "version": "1.0.0.250811141336",
+      "dependencies": [
+        "APMobileNetwork",
+        "MPDataCenter",
+        "APCommonUI",
+        "APMobileFramework",
+        "mPaas",
+        "APOpenSSL",
+        "NebulaHeader",
+        "mPaaSHeader"
+      ],
+      "resources": [
+        "NebulaSDKPlugins.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "NebulaApp",
+      "version": "1.0.0.250811141336",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "NebulaResource",
+        "AriverNebulaPoseidon",
+        "MPDataCenter",
+        "AntUI",
+        "AriverNebulaAppManager",
+        "AriverNebulaSDK",
+        "AriverKernel",
+        "AriverApp",
+        "AriverRuntime",
+        "AriverApi",
+        "AriverConfig",
+        "AriverResource",
+        "AriverNebulaKernel",
+        "FullLinkTracker",
+        "AriverSecurity",
+        "AriverNebula",
+        "AriverNebulaBiz",
+        "AriverTinyAppCommon",
+        "AriverNebulaLogging",
+        "AriverNebulaSecurity",
+        "SPMTracker",
+        "SDWebImage"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverNebulaSDK",
+      "version": "1.0.0.250811141336",
+      "dependencies": [
+        "APMobileFramework",
+        "AriverNebulaPoseidon",
+        "AriverNebulaAppManager",
+        "AriverKernel",
+        "AriverApp"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverNebulaLogging",
+      "version": "1.0.0.250811141336",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "AriverNebula",
+        "AriverNebulaSDK",
+        "AriverNebulaPoseidon",
+        "AriverNebulaConfig",
+        "APRemoteLogging",
+        "AutoTracker",
+        "AriverRuntime",
+        "AriverKernel",
+        "AriverApp",
+        "AriverResource",
+        "AriverLogger",
+        "FullLinkTracker",
+        "mPaas"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverDevice",
+      "version": "1.0.0.250811141336",
+      "dependencies": [
+        "AriverKernel",
+        "AriverApp",
+        "AriverDeviceCore"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverApp",
+      "version": "10.1.92.250811141336",
+      "dependencies": [
+        "AriverKernel",
+        "AriverResource",
+        "AUBase"
+      ],
+      "resources": [
+        "AriverApp.framework/*.bundle",
+        "Resources/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "CoreTelephony"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverApi",
+      "version": "10.1.92.250811141336",
+      "dependencies": [
+        "AriverKernel",
+        "AriverResource",
+        "AriverApp",
+        "AriverConfig",
+        "AriverRuntime"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [
+        "Photos"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "NebulaPlugins",
+      "version": "1.0.0.250811151146",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "AriverNebulaSDK",
+        "APCommonUI",
+        "APRemoteLogging",
+        "APMultimedia",
+        "AriverNebulaAppBiz",
+        "AriverNebulaTinyapp",
+        "APMVideo",
+        "AriverTinyAppCommon"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverMapComponent",
+      "version": "1.0.0.250811154124",
+      "dependencies": [
+        "AriverMap",
+        "AriverResource",
+        "AriverRuntime",
+        "AriverApp"
+      ],
+      "resources": [
+        "AriverMapComponent.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverDebug",
+      "version": "1.0.0.250811155143",
+      "dependencies": [
+        "AriverApi",
+        "AriverRuntime",
+        "AriverWebSocket"
+      ],
+      "resources": [
+        "AriverDebug.framework/*.bundle",
+        "Resources/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverComponent",
+      "version": "1.0.0.250811155157",
+      "dependencies": [
+        "AriverKernel",
+        "AriverApp",
+        "AriverRuntime"
+      ],
+      "resources": [
+        "AriverComponent.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverTraceDebug",
+      "version": "1.0.0.250811155215",
+      "dependencies": [
+        "AriverKernel",
+        "AriverApp",
+        "AriverWebSocket",
+        "AriverApi"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverTinyappService",
+      "version": "1.0.0.250811181217",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "AriverNebula",
+        "AriverNebulaBiz",
+        "AriverNebulaAppBiz",
+        "AriverNebulaSecurity",
+        "AriverNebulaTinyapp",
+        "AriverTinyAppCommon",
+        "APProtocolBuffers",
+        "APConfig",
+        "SPMTracker",
+        "AriverDebug",
+        "AriverWebSocket",
+        "NebulaApp",
+        "Masonry",
+        "mPaas",
+        "AntUI"
+      ],
+      "resources": [
+        "AriverTinyappService.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MBProgressHUD",
+      "version": "1.0.0.200406133247",
+      "dependencies": [],
+      "resources": [
+        "MBProgressHUD.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "Masonry",
+      "version": "1.0.0.200406133247",
+      "dependencies": [],
+      "resources": [
+        "Masonry.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPSecNetworkKit",
+      "version": "1.0.0.250825102434",
+      "dependencies": [],
+      "resources": [
+        "iSecNetworkKit.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APLog",
+      "version": "3.0.2.250826143630",
+      "dependencies": [],
+      "resources": [
+        "APLog.framework/*.bundle"
+      ],
+      "headers": [
+        "<APLog/APLog.h>"
+      ],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPSafeKeyboard",
+      "version": "1.0.0.250826144811",
+      "dependencies": [
+        "APOpenSSL",
+        "Masonry",
+        "APRemoteLogging",
+        "MPAntSSM"
+      ],
+      "resources": [
+        "MPSafeKeyboard.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPMasAdapter",
+      "version": "1.0.0.250826151803",
+      "dependencies": [
+        "APRemoteLogging",
+        "APCrashReporter"
+      ],
+      "resources": [],
+      "headers": [
+        "<MPMasAdapter/MPMasAdapter.h>"
+      ],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "zolozIdentitySDK",
+      "version": "4.7.1.250826154452",
+      "dependencies": [
+        "ZetaToygerServiceAlgo",
+        "mPaas"
+      ],
+      "resources": [
+        "zolozIdentitySDK.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "AVFoundation",
+        "CoreTelephony",
+        "CoreMotion",
+        "CoreLocation",
+        "SystemConfiguration",
+        "Accelerate",
+        "CoreMedia",
+        "CoreServices",
+        "CoreGraphics",
+        "QuartzCore",
+        "CoreVideo",
+        "CoreImage",
+        "UIKit"
+      ],
+      "systemLibraries": [
+        "c++",
+        "z"
+      ]
+    },
+    {
+      "name": "APRemoteLogging",
+      "version": "1.0.0.250826163333",
+      "dependencies": [
+        "mPaas",
+        "UTDID",
+        "MPaaSCryptoSDK",
+        "APProtocolBuffers"
+      ],
+      "resources": [
+        "APRemoteLogging.framework/*.bundle"
+      ],
+      "headers": [
+        "<APRemoteLogging/APRemoteLogging.h>"
+      ],
+      "systemFrameworks": [
+        "CoreTelephony"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "AntUIKit",
+      "version": "1.0.0.250826173623",
+      "dependencies": [],
+      "resources": [
+        "AntUIKit.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMobileNetwork",
+      "version": "1.0.0.250826173732",
+      "dependencies": [
+        "mPaas",
+        "MPSignatureAdapter"
+      ],
+      "resources": [
+        "APMobileNetwork.framework/*.bundle"
+      ],
+      "headers": [
+        "<APMobileNetwork/APMobileNetwork.h>"
+      ],
+      "systemFrameworks": [
+        "CoreMotion"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "AUKeyboard",
+      "version": "1.0.0.250826202604",
+      "dependencies": [
+        "mPaas"
+      ],
+      "resources": [
+        "AUKeyboard.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AntUIToken",
+      "version": "1.0.0.250826203418",
+      "dependencies": [
+        "mPaas"
+      ],
+      "resources": [
+        "AntUIToken.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AUBase",
+      "version": "1.0.0.250826203605",
+      "dependencies": [],
+      "resources": [
+        "AUBase.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AUTheme",
+      "version": "1.0.0.250826203721",
+      "dependencies": [
+        "AntUIToken",
+        "mPaas"
+      ],
+      "resources": [
+        "AUTheme.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AUToken",
+      "version": "1.0.0.250826204151",
+      "dependencies": [],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AntUIShellForMpass",
+      "version": "1.0.0.250826210349",
+      "dependencies": [
+        "AntUI",
+        "mPaas"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APCommonUI",
+      "version": "1.0.0.250826210903",
+      "dependencies": [
+        "AntUI",
+        "TTTAttributedLabel",
+        "mPaas"
+      ],
+      "resources": [],
+      "headers": [
+        "<APCommonUI/APCommonUI.h>"
+      ],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPSafeDataCenter",
+      "version": "1.0.0.250827104423",
+      "dependencies": [
+        "MPaaSCryptoSDK"
+      ],
+      "resources": [
+        "MPSafeDataCenter.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AntUIKitForAlipay",
+      "version": "1.0.0.250827113808",
+      "dependencies": [
+        "uep",
+        "APConfig",
+        "mPaas",
+        "AUBase",
+        "AntUIKit",
+        "AutoTracker"
+      ],
+      "resources": [
+        "AntUIKitForAlipay.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "mPaaSHeader",
+      "version": "1.0.0.250827144507",
+      "dependencies": [],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AliUpgradeUI",
+      "version": "1.0.0.250827150458",
+      "dependencies": [
+        "mPaas"
+      ],
+      "resources": [
+        "AliUpgradeUI.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APA11yTestBase",
+      "version": "1.0.0.250827150458",
+      "dependencies": [
+        "mPaas"
+      ],
+      "resources": [
+        "APA11yTestBase.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "WebKit",
+        "JavaScriptCore"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPVisualizationSDK",
+      "version": "1.0.0.250827150448",
+      "dependencies": [
+        "AutoTracker",
+        "SocketRocket",
+        "APMobileFramework",
+        "mPaaSHeader"
+      ],
+      "resources": [
+        "MPVisualizationSDK.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPShareKit",
+      "version": "1.0.0.250827150938",
+      "dependencies": [
+        "APRemoteLogging",
+        "TencentOpenAPI",
+        "WechatOpenSDK",
+        "APOpenSDK",
+        "WeiboSDK",
+        "DTShareKit"
+      ],
+      "resources": [
+        "MPShareKit.framework/*.bundle"
+      ],
+      "headers": [
+        "<MPShareKit/MPShareKit.h>"
+      ],
+      "systemFrameworks": [
+        "CoreTelephony",
+        "SystemConfiguration"
+      ],
+      "systemLibraries": [
+        "z",
+        "c++",
+        "sqlite3"
+      ]
+    },
+    {
+      "name": "AntMarkdown",
+      "version": "1.0.0.250827151706",
+      "dependencies": [
+        "APConfig",
+        "APMobileFramework"
+      ],
+      "resources": [
+        "AntMarkdown.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "UIKit",
+        "Foundation"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPCubeAdapter",
+      "version": "1.0.0.250827151643",
+      "dependencies": [
+        "AntCube",
+        "mPaas",
+        "APLog",
+        "SDWebImage",
+        "APOpenSSL",
+        "APMobileNetwork"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPMarkDownAdapter",
+      "version": "1.0.0.250827152936",
+      "dependencies": [
+        "MPCubeAdapter",
+        "mPaas",
+        "APLog",
+        "AntCube",
+        "AntMarkdown"
+      ],
+      "resources": [
+        "MPMarkDownAdapter.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMUtils",
+      "version": "1.0.0.250827174715",
+      "dependencies": [
+        "AUBase",
+        "mPaas"
+      ],
+      "resources": [
+        "APMUtils.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "VideoToolbox"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMCommon",
+      "version": "1.0.0.250827180903",
+      "dependencies": [
+        "APMUtils"
+      ],
+      "resources": [
+        "APMCommon.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMAudioCapturer",
+      "version": "1.0.0.250827181006",
+      "dependencies": [
+        "APMUtils",
+        "APMCommon"
+      ],
+      "resources": [
+        "APMAudioCapturer.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AntAvif",
+      "version": "1.0.0.250827195222",
+      "dependencies": [],
+      "resources": [
+        "AntAvif.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMAvif",
+      "version": "1.0.0.250827195401",
+      "dependencies": [
+        "APMUtils",
+        "AntAvif"
+      ],
+      "resources": [
+        "APMAvif.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APStorageCenter",
+      "version": "1.0.0.250827202950",
+      "dependencies": [
+        "APMobileFramework",
+        "APRemoteLogging",
+        "APConfig",
+        "MPDataCenter",
+        "mPaas"
+      ],
+      "resources": [
+        "APStorageCenter.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMCache",
+      "version": "1.0.0.250827203952",
+      "dependencies": [
+        "APMUtils",
+        "APStorageCenter"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMCDNImage",
+      "version": "1.0.0.250827205303",
+      "dependencies": [
+        "APMUtils",
+        "APMAftsCommon",
+        "mPaas"
+      ],
+      "resources": [
+        "APMCDNImage.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMediaBasic",
+      "version": "1.0.0.250827205801",
+      "dependencies": [
+        "APMUtils",
+        "APMCommon",
+        "mPaas"
+      ],
+      "resources": [
+        "APMediaBasic.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "SecFw",
+      "version": "1.0.0.250827212453",
+      "dependencies": [
+        "APMobileFramework",
+        "SPMTracker",
+        "APConfig",
+        "mPaas"
+      ],
+      "resources": [
+        "SecFw.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMMediaCache",
+      "version": "1.0.0.250827212711",
+      "dependencies": [
+        "APMUtils",
+        "APMCommon",
+        "APMCache",
+        "APConfig",
+        "APMobileFramework",
+        "MPDataCenter",
+        "mPaas",
+        "SecFw"
+      ],
+      "resources": [
+        "APMMediaCache.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMTaskManager",
+      "version": "1.0.0.250827213415",
+      "dependencies": [
+        "APMUtils",
+        "APMCache"
+      ],
+      "resources": [
+        "APMTaskManager.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "Texel",
+      "version": "1.0.0.250827220352",
+      "dependencies": [
+        "APMUtils",
+        "mPaas"
+      ],
+      "resources": [
+        "Texel.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "GLKit"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMImageProcessing",
+      "version": "1.0.0.250827220533",
+      "dependencies": [
+        "Texel",
+        "APMUtils",
+        "mPaas"
+      ],
+      "resources": [
+        "APMImageProcessing.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AliUpgradeCheckService",
+      "version": "1.0.0.250828103527",
+      "dependencies": [
+        "AliUpgradeUI",
+        "APMobileNetwork",
+        "APRemoteLogging",
+        "APLog"
+      ],
+      "resources": [
+        "AliUpgradeCheckService.framework/*.bundle"
+      ],
+      "headers": [
+        "<AliUpgradeCheckService/MPCheckUpgradeInterface.h>"
+      ],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "SDWebImage",
+      "version": "1.0.0.250828105025",
+      "dependencies": [
+        "mPaas"
+      ],
+      "resources": [
+        "SDWebImage.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "MapKit",
+        "MobileCoreServices",
+        "Accelerate"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "MASSProxy",
+      "version": "1.0.0.250828111152",
+      "dependencies": [
+        "MASSChannel",
+        "AMNet",
+        "MPDataCenter",
+        "APLog",
+        "APRemoteLogging",
+        "AntNetworkAdapter"
+      ],
+      "resources": [
+        "MASSProxy.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMFileTransfer",
+      "version": "1.0.0.250828112343",
+      "dependencies": [
+        "APMUtils",
+        "APMCommon",
+        "MASSProxy",
+        "APMTaskManager",
+        "APMMediaCache",
+        "APMCache",
+        "APMAftsCommon",
+        "APMCDNImage",
+        "mPaas",
+        "MPSignatureAdapter"
+      ],
+      "resources": [
+        "APMFileTransfer.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMFile",
+      "version": "1.0.0.250828113141",
+      "dependencies": [
+        "APMUtils",
+        "APMFileTransfer",
+        "APMMediaCache",
+        "APMCommon"
+      ],
+      "resources": [
+        "APMFile.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMVoiceManager",
+      "version": "1.0.0.250828114356",
+      "dependencies": [
+        "APMUtils",
+        "APMTaskManager",
+        "APMCommon",
+        "APMMediaCache",
+        "APMFileTransfer",
+        "APMAudioCapturer"
+      ],
+      "resources": [
+        "APMVoiceManager.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMVideo",
+      "version": "1.0.0.250828120024",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "APMFileTransfer",
+        "APMUtils",
+        "APMCommon",
+        "APMultimedia",
+        "AUBase",
+        "APMBeauty",
+        "APMediaBasic",
+        "mPaaSHeader"
+      ],
+      "resources": [
+        "APMVideo.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPPromotion",
+      "version": "1.0.0.250828144534",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "APCommonUI",
+        "APConfig",
+        "mPaaSHeader",
+        "APMobileLBS",
+        "SPMTracker",
+        "APRemoteLogging",
+        "APMultimedia",
+        "Lottie",
+        "APMVideo"
+      ],
+      "resources": [
+        "MPPromotion.framework/*.bundle"
+      ],
+      "headers": [
+        "<MPPromotion/CDPPromotion.h>"
+      ],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "BeeUtils",
+      "version": "1.0.0.250828145041",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "APCommonUI",
+        "APMultimedia",
+        "APLog",
+        "mPaaSHeader"
+      ],
+      "resources": [
+        "BeeUtils.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "BeeMediaPlayer",
+      "version": "1.0.0.250828150037",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "APConfig",
+        "mPaas",
+        "APMultimedia",
+        "mPaaSHeader",
+        "APMPlayer",
+        "APMVideo"
+      ],
+      "resources": [
+        "BeeMediaPlayer.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "MediaPlayer",
+        "Accelerate"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "BeeCityPicker",
+      "version": "1.0.0.250828151036",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "APRemoteLogging",
+        "APMobileLBS",
+        "APCommonUI",
+        "BeeUtils",
+        "SPMTracker",
+        "AUToken",
+        "mPaaSHeader"
+      ],
+      "resources": [
+        "BeeCityPicker.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "BeeCapture",
+      "version": "1.0.0.250828151245",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "APMultimedia",
+        "APMVideo",
+        "APRemoteLogging",
+        "APLog",
+        "APCommonUI",
+        "SPMTracker",
+        "SDWebImage",
+        "Texel",
+        "mPaaSHeader"
+      ],
+      "resources": [
+        "BeeCapture.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "NebulaHeader",
+      "version": "1.0.0.250828154920",
+      "dependencies": [
+        "APLog",
+        "mPaaSHeader"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "BEEAudioUtil",
+      "version": "1.0.0.250828155018",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "mPaas",
+        "APMultimedia",
+        "AntUI",
+        "mPaaSHeader"
+      ],
+      "resources": [
+        "BEEAudioUtil.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "BeePhoto",
+      "version": "1.0.0.250828155049",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "APCommonUI",
+        "BeePhotoBrowser",
+        "BeePhotoPicker",
+        "APMVideo",
+        "MPDataCenter",
+        "mPaas",
+        "AUBase",
+        "APMultimedia",
+        "APMCommon",
+        "BeeCapture",
+        "NebulaHeader",
+        "mPaaSHeader"
+      ],
+      "resources": [
+        "BeePhoto.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "BeeMediaFlowWrapper",
+      "version": "1.0.0.250828164924",
+      "dependencies": [
+        "MediaFlow",
+        "AUBase",
+        "BeeMediaPlayer",
+        "mPaas"
+      ],
+      "resources": [
+        "BeeMediaFlowWrapper.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMap",
+      "version": "1.1.0.250828181521",
+      "dependencies": [
+        "APMobileFramework",
+        "APMobileNetwork",
+        "APRemoteLogging",
+        "AMapSearchKit",
+        "MAMapKit",
+        "APCommonUI",
+        "AMapFoundationKit",
+        "APLog",
+        "APMobileLBS",
+        "AntUI",
+        "mPaas",
+        "SPMTracker",
+        "MBProgressHUD",
+        "mPaaSHeader"
+      ],
+      "resources": [
+        "APMap.framework/*.bundle"
+      ],
+      "headers": [
+        "<APMap/APMap.h>"
+      ],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPMpaaSService",
+      "version": "1.0.0.250828194212",
+      "dependencies": [
+        "APMobileNetwork",
+        "APRemoteLogging",
+        "mPaas",
+        "APLog",
+        "APProtocolBuffers",
+        "mPaaSHeader"
+      ],
+      "resources": [
+        "MPMpaaSService.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMobileFramework",
+      "version": "1.0.0.250828205929",
+      "dependencies": [
+        "mPaas",
+        "APLog",
+        "APRemoteLogging"
+      ],
+      "resources": [
+        "APMobileFramework.framework/*.bundle"
+      ],
+      "headers": [
+        "<APMobileFramework/APMobileFramework.h>"
+      ],
+      "systemFrameworks": [
+        "UserNotifications"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "BeeYouKuUPS",
+      "version": "1.0.0.250828213151",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "APConfig",
+        "SecurityGuardSDK"
+      ],
+      "resources": [
+        "BeeYouKuUPS.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "BeeYouKuPlayerWrapper",
+      "version": "1.0.0.250828213743",
+      "dependencies": [
+        "BeeMediaPlayer",
+        "YouKuPlayer"
+      ],
+      "resources": [
+        "BeeYouKuPlayerWrapper.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AFWFinanceChart",
+      "version": "1.0.0.250829105902",
+      "dependencies": [
+        "APLog",
+        "mPaas",
+        "AntCube",
+        "APRemoteLogging"
+      ],
+      "resources": [
+        "AFWFinanceChart.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "TBScanSDK",
+      "version": "1.0.0.250829110022",
+      "dependencies": [
+        "TBDecodeSDK",
+        "APRemoteLogging",
+        "mPaas"
+      ],
+      "resources": [
+        "TBScanSDK.framework/Resources/*"
+      ],
+      "headers": [
+        "<TBScanSDK/TBScanSDK.h>"
+      ],
+      "systemFrameworks": [
+        "AVFoundation",
+        "CoreMedia",
+        "AudioToolbox",
+        "AssetsLibrary",
+        "CoreVideo",
+        "QuartzCore",
+        "ImageIO",
+        "UIKit",
+        "CoreGraphics",
+        "CoreMotion",
+        "CoreImage",
+        "Accelerate"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPCubeAntUIPlugins",
+      "version": "1.0.0.250829110209",
+      "dependencies": [
+        "AntCube",
+        "MPCubeAdapter",
+        "mPaas",
+        "APMultimedia",
+        "BeeMediaPlayer",
+        "AntUI",
+        "SDWebImage"
+      ],
+      "resources": [
+        "MPCubeAntUIPlugins.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPOcr",
+      "version": "1.0.0.250829135745",
+      "dependencies": [
+        "mPaas",
+        "XMedia",
+        "APMUtils",
+        "APOpenSSL",
+        "MPModelManager"
+      ],
+      "resources": [
+        "MPOcr.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": [
+        "z",
+        "c++"
+      ]
+    },
+    {
+      "name": "MPScanCodeAdapter",
+      "version": "1.0.0.250829141952",
+      "dependencies": [
+        "TBScanSDK",
+        "MPScanSDK",
+        "mPaaSHeader"
+      ],
+      "resources": [
+        "MPScanCodeAdapter.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPDataCenter",
+      "version": "1.0.0.250829160114",
+      "dependencies": [
+        "mPaas"
+      ],
+      "resources": [],
+      "headers": [
+        "<MPDataCenter/MPDataCenter.h>"
+      ],
+      "systemFrameworks": [],
+      "systemLibraries": [
+        "sqlite3",
+        "xml2"
+      ]
+    },
+    {
+      "name": "APMPlayer",
+      "version": "1.0.0.250829192348",
+      "dependencies": [
+        "APMUtils",
+        "APMTaskManager",
+        "APMMediaCache",
+        "APMCommon",
+        "APMFileTransfer",
+        "APMImageProcessing"
+      ],
+      "resources": [
+        "APMPlayer.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMAftsCommon",
+      "version": "1.0.0.250829193029",
+      "dependencies": [
+        "APMUtils"
+      ],
+      "resources": [
+        "APMAftsCommon.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "mPaas",
+      "version": "1.0.0.250901110450",
+      "dependencies": [
+        "APLog"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [
+        "Security"
+      ],
+      "systemLibraries": [
+        "z",
+        "c++"
+      ]
+    },
+    {
+      "name": "SPMTracker",
+      "version": "1.0.0.250901133537",
+      "dependencies": [
+        "APRemoteLogging",
+        "mPaas",
+        "AUBase"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "uep",
+      "version": "1.0.0.250901133905",
+      "dependencies": [
+        "APMobileFramework",
+        "APRemoteLogging",
+        "APProtocolBuffers",
+        "APLog",
+        "mPaas",
+        "AUBase",
+        "AntUIKit",
+        "MPDataCenter",
+        "SPMTracker"
+      ],
+      "resources": [
+        "uep.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AutoTracker",
+      "version": "1.0.0.250901134146",
+      "dependencies": [
+        "MPDataCenter",
+        "APRemoteLogging",
+        "mPaas",
+        "APLog",
+        "AntUIKit",
+        "APMobileFramework"
+      ],
+      "resources": [
+        "AutoTracker.framework/*.bundle"
+      ],
+      "headers": [
+        "<AutoTracker/AutoTracker.h>"
+      ],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMHevc",
+      "version": "1.0.0.250901152535",
+      "dependencies": [
+        "APMUtils",
+        "libCVEngine"
+      ],
+      "resources": [
+        "APMHevc.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPNetAnalysis",
+      "version": "1.0.0.250901154554",
+      "dependencies": [
+        "mPaas",
+        "APRemoteLogging",
+        "Masonry",
+        "APLog"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPScanSDK",
+      "version": "1.0.0.250901164414",
+      "dependencies": [
+        "TBScanSDK",
+        "mPaas",
+        "APRemoteLogging"
+      ],
+      "resources": [
+        "MPScanSDK.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AntUI",
+      "version": "1.0.0.250901185228",
+      "dependencies": [
+        "AntUIKit",
+        "AntUIToken",
+        "TTTAttributedLabel",
+        "AUKeyboard",
+        "MBProgressHUD",
+        "Masonry",
+        "AUTheme",
+        "AUBase",
+        "AUToken",
+        "mPaas"
+      ],
+      "resources": [
+        "AntUI.framework/*.bundle"
+      ],
+      "headers": [
+        "<AntUI/AntUI.h>"
+      ],
+      "systemFrameworks": [
+        "UIKit",
+        "Foundation",
+        "Accelerate"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverMap",
+      "version": "1.0.0.250902095830",
+      "dependencies": [
+        "AriverApp",
+        "AriverConfig",
+        "MAMapKit",
+        "AMapSearchKit",
+        "AMapFoundationKit",
+        "APMobileLBS",
+        "SPMTracker"
+      ],
+      "resources": [
+        "AriverMap.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMobileLBS",
+      "version": "1.0.1.250902101639",
+      "dependencies": [
+        "APMobileNetwork",
+        "APProtocolBuffers",
+        "APRemoteLogging",
+        "MPDataCenter",
+        "AMapFoundationKit",
+        "MAMapKit",
+        "APLog",
+        "mPaas",
+        "AntUI",
+        "AMapSearchKit",
+        "mPaaSHeader"
+      ],
+      "resources": [
+        "APMobileLBS.framework/*.bundle"
+      ],
+      "headers": [
+        "<APMobileLBS/APMobileLBS.h>"
+      ],
+      "systemFrameworks": [
+        "CoreLocation",
+        "Accelerate"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "AntCube",
+      "version": "1.0.0.250902145331",
+      "dependencies": [
+        "AntWasm",
+        "APProtocolBuffers"
+      ],
+      "resources": [
+        "CubeKit.framework/*.bundle",
+        "AntCube.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPDynamicAdapter",
+      "version": "1.0.0.200525171627",
+      "dependencies": [
+        "MPHotpatchSDK"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPOcrCarLicense",
+      "version": "1.0.0.200617195627",
+      "dependencies": [],
+      "resources": [
+        "MPOcrCarLicense.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPOcrDrivingLicense",
+      "version": "1.0.0.200617195627",
+      "dependencies": [],
+      "resources": [
+        "MPOcrDrivingLicense.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPOcrDriverLicense",
+      "version": "1.0.0.200617195627",
+      "dependencies": [],
+      "resources": [
+        "MPOcrDriverLicense.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPOcrGasMeter",
+      "version": "1.0.0.200617195627",
+      "dependencies": [],
+      "resources": [
+        "MPOcrGasMeter.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPOcrPassPort",
+      "version": "1.0.0.200617195627",
+      "dependencies": [],
+      "resources": [
+        "MPOcrPassPort.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPOcrVinCode",
+      "version": "1.0.0.200617195627",
+      "dependencies": [],
+      "resources": [
+        "MPOcrVinCode.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "libCVEngine",
+      "version": "1.0.0.200617201807",
+      "dependencies": [],
+      "resources": [
+        "libCVEngine.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "FalconLooks",
+      "version": "1.0.0.200618164950",
+      "dependencies": [
+        "APScripts",
+        "APMUtils"
+      ],
+      "resources": [
+        "FalconLooks.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMLogging",
+      "version": "1.0.0.200716133857",
+      "dependencies": [
+        "APMUtils",
+        "APLog",
+        "APRemoteLogging"
+      ],
+      "resources": [
+        "APMLogging.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPSmartSceneSDK",
+      "version": "1.0.0.250917105118",
+      "dependencies": [
+        "APMobileNetwork",
+        "SDWebImage",
+        "MJRefresh",
+        "APMobileFramework",
+        "MPMasAdapter",
+        "AntCube",
+        "MPCubeAdapter",
+        "MarsNative",
+        "APCubePlayground",
+        "Masonry",
+        "MPUTDIDAdapter",
+        "mPaaSHeader",
+        "TBScanSDK"
+      ],
+      "resources": [
+        "MPSmartSceneSDK.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MarsNative",
+      "version": "1.0.0.250917105934",
+      "dependencies": [
+        "APMobileFramework",
+        "mPaas"
+      ],
+      "resources": [
+        "MarsNative.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverResource",
+      "version": "10.1.92.250917172543",
+      "dependencies": [
+        "AriverKernel",
+        "AriverConfig",
+        "APMobileFramework"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "TTTAttributedLabel",
+      "version": "1.0.0.200729094531",
+      "dependencies": [],
+      "resources": [
+        "TTTAttributedLabel.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "SocketRocket",
+      "version": "1.0.0.200811152708",
+      "dependencies": [],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPDeviceIdentity",
+      "version": "1.0.0.250923114056",
+      "dependencies": [],
+      "resources": [
+        "MPDeviceIdentity.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "UIKit",
+        "SystemConfiguration",
+        "CoreLocation",
+        "CoreTelephony",
+        "CoreBluetooth"
+      ],
+      "systemLibraries": [
+        "c++",
+        "z",
+        "resolv"
+      ]
+    },
+    {
+      "name": "MPLongLinkService",
+      "version": "1.0.0.250924102856",
+      "dependencies": [
+        "APLog",
+        "APProtocolBuffers",
+        "mPaas",
+        "MPDataCenter",
+        "UTDID",
+        "APBaseInterfaceAdapter",
+        "MPSignatureAdapter"
+      ],
+      "resources": [
+        "MPLongLinkService.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPA11yAdapter",
+      "version": "1.0.0.250924102856",
+      "dependencies": [
+        "APA11yTestBase",
+        "MPSignatureAdapter",
+        "APOpenSSL"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [
+        "WebKit"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPMassAdapter",
+      "version": "1.0.0.250924102856",
+      "dependencies": [
+        "MASSChannel",
+        "MASSProxy",
+        "mPaas",
+        "MPSignatureAdapter"
+      ],
+      "resources": [
+        "MPMassAdapter.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMultimedia",
+      "version": "1.0.0.250924133613",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "APWebP",
+        "MASSProxy",
+        "APLog",
+        "APMUtils",
+        "APMTaskManager",
+        "APMImageProcessing",
+        "APMCache",
+        "APMCDNImage",
+        "APMHevc",
+        "APMCommon",
+        "APMMediaCache",
+        "APMFileTransfer",
+        "APMVoiceManager",
+        "APMPlayer",
+        "APMFile",
+        "mPaaSHeader",
+        "mPaas"
+      ],
+      "resources": [
+        "APMultimedia.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "VideoToolbox",
+        "CoreAudio",
+        "AssetsLibrary",
+        "Photos",
+        "CoreServices",
+        "CoreMedia",
+        "AudioToolbox",
+        "AVFoundation"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPMASDK",
+      "version": "1.0.0.250924160114",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "NetworkCtlService",
+        "MPStreamingRPCAdapter",
+        "AntCube",
+        "MPCubeAdapter",
+        "MPMarkDownAdapter",
+        "mPaas"
+      ],
+      "resources": [
+        "MPMASDK.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "LUIDemo",
+      "version": "1.0.0.250924160446",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "AntCube",
+        "AntUI",
+        "TBScanSDK",
+        "MPMASDK",
+        "NetworkCtlService",
+        "MPStreamingRPCAdapter"
+      ],
+      "resources": [
+        "LUIDemo.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "iSMIKit",
+      "version": "1.0.0.201103192114",
+      "dependencies": [
+        "SocketRocket",
+        "mPaas",
+        "APMUtils",
+        "APMAudio",
+        "opus",
+        "APProtocolBuffers",
+        "APMobileNetwork"
+      ],
+      "resources": [
+        "iSMIKit.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "APMAudio",
+      "version": "1.0.0.201103193041",
+      "dependencies": [
+        "APMUtils",
+        "opus"
+      ],
+      "resources": [
+        "APMAudio.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverLogger",
+      "version": "10.1.92.201207145401",
+      "dependencies": [
+        "AriverKernel",
+        "AriverResource",
+        "AriverApp"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverDeviceCore",
+      "version": "1.0.0.201207153807",
+      "dependencies": [
+        "AriverKernel",
+        "AriverApp"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "TinyTracker",
+      "version": "1.0.0.201208133055",
+      "dependencies": [
+        "APRemoteLogging"
+      ],
+      "resources": [
+        "TinyTracker.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverNebulaBiz",
+      "version": "1.0.0.251104173338",
+      "dependencies": [
+        "APMobileFramework",
+        "APCommonUI",
+        "APRemoteLogging",
+        "AriverNebula",
+        "AriverNebulaKernel",
+        "AriverNebulaAppBiz",
+        "AntUI",
+        "AriverNebulaLogging",
+        "AriverNebulaTinyapp",
+        "NebulaResource",
+        "AriverRuntime",
+        "AriverKernel",
+        "AriverResource",
+        "AriverApp",
+        "AriverApi",
+        "AriverTinyAppCommon",
+        "AriverNebulaConfig",
+        "MPDataCenter",
+        "AriverComponent",
+        "mPaas",
+        "NBInside",
+        "APOpenSSL"
+      ],
+      "resources": [
+        "AriverNebulaBiz.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "MessageUI"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "BeePhotoPicker",
+      "version": "1.0.0.251104181803",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "APRemoteLogging",
+        "BeeUtils",
+        "BeePhotoBrowser",
+        "APCommonUI",
+        "mPaas",
+        "MPDataCenter",
+        "AntUI",
+        "APConfig",
+        "APMVideo",
+        "mPaaSHeader"
+      ],
+      "resources": [
+        "BeePhotoPicker.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [
+        "PhotosUI"
+      ],
+      "systemLibraries": []
+    },
+    {
+      "name": "BeePhotoBrowser",
+      "version": "1.0.0.251104183655",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "BeeUtils",
+        "APLog",
+        "AntUI",
+        "APMVideo",
+        "BeeMediaPlayer",
+        "SPMTracker",
+        "mPaaSHeader",
+        "SDWebImage",
+        "MBProgressHUD"
+      ],
+      "resources": [
+        "BeePhotoBrowser.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "BeeLocationPicker",
+      "version": "1.0.0.251105101433",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "APMap",
+        "APMobileLBS",
+        "AntUI",
+        "APLog",
+        "APRemoteLogging",
+        "APCommonUI",
+        "MBProgressHUD",
+        "mPaaSHeader"
+      ],
+      "resources": [
+        "BeeLocationPicker.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "AriverTinyAppCommon",
+      "version": "1.0.0.251105180722",
+      "dependencies": [
+        "APMobileNetwork",
+        "APMobileFramework",
+        "AriverNebula",
+        "APMultimedia",
+        "AriverNebulaTinyapp",
+        "AriverNebulaConfig",
+        "APMVideo",
+        "mPaas"
+      ],
+      "resources": [
+        "AriverTinyAppCommon.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "FalconARKit",
+      "version": "1.0.0.210119191158",
+      "dependencies": [
+        "APLog",
+        "APMUtils"
+      ],
+      "resources": [
+        "FalconARKit.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPAppCenter",
+      "version": "1.0.0.210120205909",
+      "dependencies": [
+        "APProtocolBuffers",
+        "APMobileNetwork"
+      ],
+      "resources": [
+        "MPAppCenter.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    },
+    {
+      "name": "MPDevHelper",
+      "version": "1.0.0.210125105248",
+      "dependencies": [],
+      "resources": [
+        "MPDevHelper.framework/*.bundle"
+      ],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": [
+        "c++"
+      ]
+    },
+    {
+      "name": "AriverWebSocket",
+      "version": "1.0.0.210127162344",
+      "dependencies": [
+        "AriverKernel",
+        "AriverConfig",
+        "AriverResource",
+        "AriverApp",
+        "AriverRuntime",
+        "SocketRocket"
+      ],
+      "resources": [],
+      "headers": [],
+      "systemFrameworks": [],
+      "systemLibraries": []
+    }
+  ],
+  "modules": [
+    {
+      "name": "MPBaseTest",
+      "title": "基础测试",
+      "description": "基础的测试模块",
+      "releaseNote": "新增",
+      "frameworks": [
+        "MPBaseTest"
+      ]
+    },
+    {
+      "name": "mPaaS_AMap",
+      "title": "高德定位",
+      "description": "mPaaS 对 \"AMapFoundationKit\", \"MAMapKit\", \"AMapSearchKit\" 的封装",
+      "releaseNote": "mPaaS 对 \"AMapFoundationKit\", \"MAMapKit\", \"AMapSearchKit\" 的封装",
+      "frameworks": [
+        "AMapFoundationKit",
+        "MAMapKit",
+        "AMapSearchKit"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_AMap",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_APWebP",
+      "title": "APWebP",
+      "description": "webp开源库",
+      "releaseNote": "拆分webp开源库",
+      "frameworks": [
+        "APWebP"
+      ]
+    },
+    {
+      "name": "mPaaS_ARTVC",
+      "title": "视频通话",
+      "description": "支持多人音视频通话",
+      "releaseNote": "视频通话sdk发布",
+      "frameworks": [
+        "ARTVC",
+        "mPaas",
+        "APMLogging",
+        "SocketRocket",
+        "APMUtils"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_UTDIDLib",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_AliAccount",
+      "title": "小程序账户通",
+      "description": "小程序账户通",
+      "releaseNote": "小程序账户通发布",
+      "frameworks": [
+        "Nebula",
+        "NebulaBiz",
+        "NebulaSDKPlugins",
+        "NebulaAppBiz",
+        "NebulaTinyapp",
+        "TinyAppCommon",
+        "MPNebulaAdapter",
+        "MPMasAdapter",
+        "MPMgsAdapter",
+        "MPMssAdapter",
+        "NebulaSecurity",
+        "APConfig",
+        "NebulaPoseidon",
+        "NebulaNetwork",
+        "NebulaKernel",
+        "NebulaHeader",
+        "NebulaConfig",
+        "APBLESDK",
+        "AOMPFileManager",
+        "NebulaLogging",
+        "Lottie",
+        "AntUI",
+        "APMultimedia",
+        "AntUIShellForMpass",
+        "NebulaSDK",
+        "NebulaAppManager",
+        "NebulamPaaSBiz",
+        "Nebula",
+        "TinyappService",
+        "TBScanSDK",
+        "MPMpaaSService",
+        "NebulaAuth",
+        "InsideSDK",
+        "NBInsideAccountAdaptor",
+        "BeeLocationPicker",
+        "BeePhoto",
+        "AMapFoundationKit",
+        "AMapSearchKit",
+        "MAMapKit",
+        "BeeCityPicker",
+        "BEEAudioUtil",
+        "BeeCapture",
+        "BeeMediaPlayer",
+        "MASSChannel",
+        "MASSProxy",
+        "AutoTracker",
+        "APMImageProcessing",
+        "APMUtils",
+        "APMTaskManager",
+        "APMBeauty",
+        "APMCache",
+        "APMCDNImage",
+        "Texel",
+        "APWebP",
+        "SPMTracker",
+        "APMobileLBS",
+        "SDWebImage",
+        "BeePhotoPicker",
+        "BeePhotoBrowser",
+        "APMobileFramework",
+        "APMap",
+        "MPShareKit",
+        "SocketRocket"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_Lottie",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_MBProgressHud",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Masonry",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_SDWebImage",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TTTAttributedLabel",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_AMap",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_UTDIDLib",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_APWebP",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_AlipaySDK",
+      "title": "支付宝快捷支付",
+      "description": "支付宝快捷收银台。",
+      "releaseNote": "提升稳定性。",
+      "frameworks": [
+        "AlipaySDK",
+        "UTDID"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_UTDIDLib",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_Ariver",
+      "title": "Ariver小程序",
+      "description": "ariver新容器小程序",
+      "releaseNote": "ariver新容器小程序",
+      "frameworks": [
+        "NebulaIntegration",
+        "NebulaSDKPlugins",
+        "NebulaPlugins",
+        "BeeLocationPicker",
+        "BeeCityPicker",
+        "BeePhoto",
+        "AOMPNetwork",
+        "AriverMapComponent",
+        "AriverContact",
+        "AriverDebug",
+        "AriverTraceDebug",
+        "AriverDevice",
+        "AriverWifi",
+        "AriverBLE",
+        "MPMgsAdapter",
+        "AntUIShellForMpass",
+        "BEEAudioUtil",
+        "AntUIKitForAlipay",
+        "AntUIKit",
+        "AriverMPNebulaAdapter",
+        "AriverFileManager",
+        "AriverAOMPFileManager",
+        "MPScanCodeAdapter"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_AMap",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Lottie",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_MBProgressHud",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Masonry",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_SDWebImage",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_UTDIDLib",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TTTAttributedLabel",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TinyApp_Device",
+          "isCommon": false,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TinyApp_Location",
+          "isCommon": false,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TinyApp_Multimedia",
+          "isCommon": false,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TinyApp_Scan",
+          "isCommon": false,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_APWebP",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TinyApp_Audio",
+          "isCommon": false,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TinyApp_Player",
+          "isCommon": false,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_Ariver_Cube",
+      "title": "原生小程序",
+      "description": "原生小程序相关模块",
+      "releaseNote": "初始化",
+      "frameworks": [
+        "APCubePlayground",
+        "AntCube",
+        "AntWasm",
+        "AriverApi",
+        "AriverMPNebulaAdapter",
+        "NBInside",
+        "NebulaApp",
+        "AriverNebulaBiz",
+        "NebulaEngine",
+        "MPCubeEngin",
+        "MPCubeAdapter",
+        "MPCubeAntUIPlugins"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_Lottie",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_BadgeService",
+      "title": "红点",
+      "description": "客户端\\\"红点\\\"提醒组件，支持红点、数字、New等提醒样式，自动管理树形结构的红点关系。",
+      "releaseNote": "红点视图支持自定义图片。",
+      "frameworks": [
+        "MPBadgeService"
+      ]
+    },
+    {
+      "name": "mPaaS_BlueShield",
+      "title": "蓝盾",
+      "description": "蓝盾",
+      "releaseNote": "蓝盾",
+      "frameworks": [
+        "APPSecuritySDKCore",
+        "APPSecurityMPaasAdapter"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_UTDID",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_UTDIDLib",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_CDP",
+      "title": "智能投放",
+      "description": "智能配置各类营销广告和展示形式，动态投放到客户端。",
+      "releaseNote": "新增 CDP 模块，支持的广告展示形式包括轮播、公告、单行、列表头尾、全屏、H5、启动页等。",
+      "frameworks": [
+        "MPPromotion",
+        "MPMgsAdapter",
+        "AntUIShellForMpass"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_AMap",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Masonry",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_MBProgressHud",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_SDWebImage",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TTTAttributedLabel",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_UTDIDLib",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_APWebP",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_Canvas",
+      "title": "Canvas渲染",
+      "description": "Canvas渲染",
+      "releaseNote": "Canvas渲染",
+      "frameworks": [
+        "Canvas",
+        "AntCanvas",
+        "GCanvas4Alipay",
+        "AGSkia",
+        "AntGraphic",
+        "AUBase",
+        "AntWasm"
+      ]
+    },
+    {
+      "name": "mPaaS_CommonUI",
+      "title": "通用UI",
+      "description": "通用UI组件库，提供各种UI组件",
+      "releaseNote": "iOS 12适配，解决在 iOS12 上导航栏显示问题。",
+      "frameworks": [
+        "APCommonUI",
+        "AntUI",
+        "AntUIShellForMpass"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_MBProgressHud",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Masonry",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TTTAttributedLabel",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_Config",
+      "title": "开关配置",
+      "description": "根据key从服务端拉取对应的value，可动态控制客户端逻辑",
+      "releaseNote": "封装中间层，大幅简化使用难度。",
+      "frameworks": [
+        "APConfig",
+        "MPConfigAdapter",
+        "MPMgsAdapter",
+        "MPMasAdapter",
+        "MPMssAdapter"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_UTDIDLib",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_Cube",
+      "title": "Cube卡片",
+      "description": "Cube卡片",
+      "releaseNote": "新增Cube模块",
+      "frameworks": [
+        "AntWasm",
+        "APMobileNetwork",
+        "AntCube",
+        "APMobileFramework",
+        "APConfig",
+        "APRemoteLogging",
+        "MPPerformance",
+        "APCrashReporter",
+        "MPMgsAdapter",
+        "APLog",
+        "mPaas",
+        "MPCubeEngin",
+        "uep",
+        "AriverNebulaNetwork",
+        "MPCubeAdapter",
+        "NebulaIntegration",
+        "AOMPNetwork",
+        "MPCubeAntUIPlugins"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_SDWebImage",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_Cube_Dev",
+      "title": "Cube卡片开发",
+      "description": "Cube卡片开发预览+调试",
+      "releaseNote": "初始化",
+      "frameworks": [
+        "APCubePlayground"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_DataCenter",
+      "title": "统一存储",
+      "description": "统一存储，提供安全、快速、可加密、支持多种数据类型的KV存储；数据库DAO支持等多种持久化方案；内存缓存等。",
+      "releaseNote": "提升稳定性",
+      "frameworks": [
+        "MPDataCenter"
+      ]
+    },
+    {
+      "name": "mPaaS_DevHelper",
+      "title": "开发小助手",
+      "description": "常用的辅助开发工具及mPaaS开发工具",
+      "releaseNote": "提供辅助开发工具及mPaaS开发工具",
+      "frameworks": [
+        "MPDevHelper",
+        "MPComponentDiagnose"
+      ]
+    },
+    {
+      "name": "mPaaS_Diagnosis",
+      "title": "诊断",
+      "description": "客户端诊断分析",
+      "releaseNote": "封装中间层，大幅简化使用难度；优化部分稳定性。\n",
+      "frameworks": [
+        "MPDiagnosis",
+        "MPMssAdapter"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_UTDIDLib",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_GMSSL",
+      "title": "Ant国密SDK组件（专有云）",
+      "description": "Ant国密SDK组件",
+      "releaseNote": "Ant国密SDK组件",
+      "frameworks": [
+        "MPGMSSLAdapter",
+        "APLog",
+        "MPGMAdapter",
+        "MASSProxy",
+        "NetworkCtlService",
+        "AMNet",
+        "MPGMSSLService"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_Hotpatch",
+      "title": "热修复（专有云）",
+      "description": "动态修复（Hotpatch），用于在不发版的情况下热修复线上Bug",
+      "releaseNote": "封装中间层，大幅简化使用难度。",
+      "frameworks": [
+        "MPHotpatchSDK",
+        "MPDynamicAdapter",
+        "MPMasAdapter",
+        "MPMgsAdapter"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_UTDIDLib",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_LBS",
+      "title": "移动定位",
+      "description": "移动客户端定位解决方案。",
+      "releaseNote": "提升稳定性。",
+      "frameworks": [
+        "MPMasAdapter",
+        "MPMgsAdapter",
+        "MPLBSAdapter",
+        "AntUIShellForMpass"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_AMap",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Masonry",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_MBProgressHud",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_SDWebImage",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_UTDIDLib",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TTTAttributedLabel",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_LocalLog",
+      "title": "本地日志",
+      "description": "保存在本地不上传到服务器，需要时可通过下发sync上报",
+      "releaseNote": "提升稳定性",
+      "frameworks": [
+        "APLog"
+      ]
+    },
+    {
+      "name": "mPaaS_Log",
+      "title": "移动分析",
+      "description": "行为日志、自动化日志、Crash日志、性能日志分析",
+      "releaseNote": "封装中间层，大幅简化使用难度。",
+      "frameworks": [
+        "MPMasAdapter",
+        "APRemoteLogging",
+        "AutoTracker",
+        "MPPerformance",
+        "APCrashReporter",
+        "TianYan",
+        "MPGMAdapter"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_UTDIDLib",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_Lottie",
+      "title": "Lottie",
+      "description": "Lottie mPaaS 封装版 2.5.3",
+      "releaseNote": "Lottie mPaaS 封装版 2.5.3",
+      "frameworks": [
+        "Lottie"
+      ]
+    },
+    {
+      "name": "mPaaS_MAC",
+      "title": "应用中心",
+      "description": "移动应用中心",
+      "releaseNote": "新增",
+      "frameworks": [
+        "MPAppCenter"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_MBProgressHud",
+      "title": "MBProgressHud",
+      "description": "MBProgressHud mPaaS 封装版",
+      "releaseNote": "MBProgressHud mPaaS 封装版",
+      "frameworks": [
+        "MBProgressHUD"
+      ]
+    },
+    {
+      "name": "mPaaS_MDC",
+      "title": "移动调度",
+      "description": "移动调度",
+      "releaseNote": "首次发布",
+      "frameworks": [
+        "MPMDC",
+        "MPMdcAdapter",
+        "mPaas"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_TTTAttributedLabel",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_MBProgressHud",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Masonry",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_MPCP",
+      "title": "隐私中台（专有云）",
+      "description": "对隐私异常的监控，超频次申请、超频次调用、未授权调用、后台调用、 隐私泄露",
+      "releaseNote": "新增隐私中台模块",
+      "frameworks": [
+        "APRemoteLogging",
+        "MPMgsAdapter",
+        "APMobileFramework",
+        "APMobileNetwork",
+        "APConfig",
+        "mPaas",
+        "BinAOP",
+        "TianYan",
+        "APCrashReporter"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_MPIDRSCore",
+      "title": "双录质检原子能力",
+      "description": "双录质检",
+      "releaseNote": "双录质检",
+      "frameworks": [
+        "MPIDRSSDK"
+      ]
+    },
+    {
+      "name": "mPaaS_MPIDRSProcess",
+      "title": "本地流程双录",
+      "description": "双录质检本地流程SDK",
+      "releaseNote": "双录质检本地流程SDK",
+      "frameworks": [
+        "MPIDRSProcess",
+        "MPIDRSSDK"
+      ]
+    },
+    {
+      "name": "mPaaS_MPMDSGrayService",
+      "title": "mPaaS_自定义资源SDK",
+      "description": "自定义资源 SDK，用来更新自定义资源包信息",
+      "releaseNote": "新增",
+      "frameworks": [
+        "MPMDSGrayService"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_Mars",
+      "title": "MarsNative 元互动组件",
+      "description": "MarsNative 元互动组件",
+      "releaseNote": "主基线首次对外",
+      "frameworks": [
+        "MarsNative"
+      ]
+    },
+    {
+      "name": "mPaaS_Masonry",
+      "title": "Masonry",
+      "description": "Masonry mPaaS 封装版",
+      "releaseNote": "Masonry mPaaS 封装版",
+      "frameworks": [
+        "Masonry"
+      ]
+    },
+    {
+      "name": "mPaaS_MobileFramework",
+      "title": "移动框架",
+      "description": "客户端应用框架，子app管理，多tab类应用管理，第三方跳转管理，viewController跳转，异常处理与上报。",
+      "releaseNote": "提升稳定性。",
+      "frameworks": [
+        "APMobileFramework"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_UTDIDLib",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_Multimedia",
+      "title": "多媒体组件",
+      "description": "多媒体组件，支持图片下载、上传、缓存等功能。",
+      "releaseNote": "提升性能。",
+      "frameworks": [
+        "APMultimedia",
+        "MPMgsAdapter",
+        "MPMasAdapter",
+        "MPMassAdapter",
+        "MASSChannel",
+        "MASSProxy",
+        "mPaas"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_UTDIDLib",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_APWebP",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_NEARX",
+      "title": "端营销反作弊",
+      "description": "端营销反作弊",
+      "releaseNote": "端营销反作弊",
+      "frameworks": [
+        "MPNEARXAdapter",
+        "MPSecuritySDKCoreAdapter",
+        "APPSecuritySDKCore",
+        "APPSecurityMPaasAdapter"
+      ]
+    },
+    {
+      "name": "mPaaS_Nebula",
+      "title": "H5容器&离线包",
+      "description": "Nebula容器，支持前端与native交互",
+      "releaseNote": "支持离线包域名带端口，更新内置jsapi列表",
+      "frameworks": [
+        "NebulaBiz",
+        "TinyAppCommon",
+        "NebulaSDK",
+        "MPNebulaAdapter",
+        "NebulamPaaSBiz",
+        "NebulaLogging",
+        "NebulaAppManager",
+        "NebulaPoseidon",
+        "MPMasAdapter",
+        "MPMgsAdapter",
+        "MPMssAdapter",
+        "APConfig",
+        "APCommonUI",
+        "NebulaAppBiz",
+        "NebulaConfig",
+        "NebulaTinyapp",
+        "Nebula",
+        "AntUIShellForMpass",
+        "NebulaNetwork",
+        "SocketRocket",
+        "MPGMAdapter",
+        "AntUIKitForAlipay",
+        "AntUI"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_SDWebImage",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_MBProgressHud",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Masonry",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_UTDIDLib",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TTTAttributedLabel",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_APWebP",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_NebulaDevHelper",
+      "title": "离线包开发助手",
+      "description": "提供离线包已安装列表、插件列表等查看功能",
+      "releaseNote": "离线包应用中心",
+      "frameworks": [
+        "AppDoctor",
+        "MPDevHelper"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_MBProgressHud",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_SDWebImage",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Masonry",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TTTAttributedLabel",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_UTDIDLib",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_Network",
+      "title": "基础网络组件",
+      "description": "基础网络组件",
+      "releaseNote": "基础网络组件",
+      "frameworks": [
+        "AMNet",
+        "APBaseInterfaceAdapter",
+        "APOpenSSL",
+        "AntNetworkAdapter",
+        "NetworkCtlService",
+        "MASSChannel",
+        "MASSProxy",
+        "MPMDC",
+        "MPMdcAdapter",
+        "APLongLinkService",
+        "MPSignatureAdapter"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_TTTAttributedLabel",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_MBProgressHud",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Masonry",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_OCR",
+      "title": "OCR识别（专有云)",
+      "description": "银行卡/身份证/驾驶证/行驶证/车牌/vin码/护照/燃气表等OCR识别",
+      "releaseNote": "OCR能力扩展",
+      "frameworks": [
+        "XMedia",
+        "xNN",
+        "libCVEngine",
+        "MPOcr",
+        "MPOcrVinCode",
+        "MPOcrPassPort",
+        "MPOcrGasMeter",
+        "MPOcrDriverLicense",
+        "MPOcrDrivingLicense",
+        "MPOcrCarLicense",
+        "APMUtils",
+        "MPModelManager"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_OpenSSL",
+      "title": "OpenSSL",
+      "description": "Open SSL",
+      "releaseNote": " ",
+      "frameworks": [
+        "APOpenSSL"
+      ]
+    },
+    {
+      "name": "mPaaS_Push",
+      "title": "消息推送",
+      "description": "消息推送",
+      "releaseNote": "接口封装优化。",
+      "frameworks": [
+        "MPPushSDK",
+        "MPMasAdapter",
+        "MPMgsAdapter"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_UTDIDLib",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_RPC",
+      "title": "移动网关",
+      "description": "提供下载、上传、RPC调用等功能",
+      "releaseNote": "封装中间层，大幅简化使用难度。优化部分稳定性。",
+      "frameworks": [
+        "APMobileNetwork",
+        "MPMgsAdapter",
+        "APRemoteLogging",
+        "MPMasAdapter",
+        "MPGMAdapter",
+        "MPAntSSM",
+        "MPaaSCryptoSDK",
+        "MPSignatureAdapter"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_UTDIDLib",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_RTMS",
+      "title": "RTMS",
+      "description": "RTMS",
+      "releaseNote": "RTMS",
+      "frameworks": [
+        "APStreamingRPC",
+        "MPSignatureAdapter",
+        "APBaseInterfaceAdapter",
+        "APNetworkTransport",
+        "AntNetworkAdapter",
+        "APMobileNetwork",
+        "MPMgsAdapter"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_RiskDetect",
+      "title": "移动威胁感知/设备风险咨询（专有云）",
+      "description": "移动威胁感知",
+      "releaseNote": "移动威胁感知",
+      "frameworks": [
+        "APMobileNetwork",
+        "APConfig",
+        "APPSecuritySDKCore",
+        "APPSecurityMPaasAdapter",
+        "MPSecurityDetectAdapter",
+        "APRemoteLogging",
+        "APSecDeviceSensorInfo",
+        "MPUTDIDAdapter",
+        "UTDID",
+        "MPMgsAdapter",
+        "MPDeviceIdentity"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_RiskDetect_ext",
+      "title": "移动威胁感知/设备风险咨询扩展（专有云）",
+      "description": "移动威胁感知扩展",
+      "releaseNote": "移动威胁感知扩展",
+      "frameworks": [
+        "MPDeviceIdentityExt"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_SDWebImage",
+      "title": "SDWebImage",
+      "description": "SDWebImage 5.0.3",
+      "releaseNote": "SDWebImage 5.0.3",
+      "frameworks": [
+        "SDWebImage"
+      ]
+    },
+    {
+      "name": "mPaaS_SafeDataCenter",
+      "title": "安全存储",
+      "description": "安全存储组件是 mPaaS 提供的客户端持久化加密存储的完整解决方案。该组件在不同平台分别提供了多样化的存储方式以满足不同的存储需求，针对不同的存储方式统一使用具有国密资质的密码模块进行加解密，同时在密钥管理上使用一机一密动态密钥方案确保密钥安全性",
+      "releaseNote": "新增模块，增加安全存储能力",
+      "frameworks": [
+        "MPSafeDataCenter",
+        "MPaaSCryptoSDK"
+      ]
+    },
+    {
+      "name": "mPaaS_SafeKeyboard",
+      "title": "安全键盘（专有云）",
+      "description": "符合监管要求，安全可靠",
+      "releaseNote": "202012月常规迭代更新",
+      "frameworks": [
+        "MPSafeKeyboard"
+      ]
+    },
+    {
+      "name": "mPaaS_ScanCode",
+      "title": "扫码",
+      "description": "快速识别二维码、条形码",
+      "releaseNote": "提升性能",
+      "frameworks": [
+        "TBScanSDK",
+        "MPMasAdapter",
+        "MPScanSDK",
+        "xNN"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_UTDIDLib",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_Security",
+      "title": "无线保镖",
+      "description": "无线保镖安全SDK",
+      "releaseNote": "拆分无线保镖安全SDK",
+      "frameworks": [
+        "SecurityGuardSDK",
+        "SGAVMP"
+      ]
+    },
+    {
+      "name": "mPaaS_SecurityEnvCheck",
+      "title": "移动终端环境检测（专有云）",
+      "description": "移动终端环境检测",
+      "releaseNote": "移动终端环境检测",
+      "frameworks": [
+        "MPSecurityAdapter"
+      ]
+    },
+    {
+      "name": "mPaaS_Share",
+      "title": "分享",
+      "description": "支持分享文本、图片到微博、钉钉、支付宝好友等知名渠道",
+      "releaseNote": "支持微信和QQ分享url时，缩略图可以使用网络图片",
+      "frameworks": [
+        "MPShareKit"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_WechatOpenSDK",
+          "isCommon": false,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_SmartScene",
+      "title": "智能版面",
+      "description": "智能版面",
+      "releaseNote": "初始化",
+      "frameworks": [
+        "MPSmartSceneSDK",
+        "AntCube"
+      ]
+    },
+    {
+      "name": "mPaaS_Sync",
+      "title": "数据同步",
+      "description": "长链接服务",
+      "releaseNote": "封装中间层，大幅简化使用难度。优化部分稳定性。",
+      "frameworks": [
+        "MPMssAdapter",
+        "MPMasAdapter",
+        "APRemoteLogging",
+        "MPLongLinkService",
+        "APLongLinkService",
+        "MPSignatureAdapter"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_UTDIDLib",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_TTTAttributedLabel",
+      "title": "TTTAttributedLabel",
+      "description": "开源库 - TTTAttributedLabel",
+      "releaseNote": "开源库 - TTTAttributedLabel",
+      "frameworks": [
+        "TTTAttributedLabel"
+      ]
+    },
+    {
+      "name": "mPaaS_TinyApp",
+      "title": "小程序",
+      "description": "小程序集成发布能力。",
+      "releaseNote": "提升了稳定性。",
+      "frameworks": [
+        "NebulaBiz",
+        "NebulaSDKPlugins",
+        "NebulaAppBiz",
+        "NebulaTinyapp",
+        "TinyAppCommon",
+        "MPNebulaAdapter",
+        "MPMasAdapter",
+        "MPMgsAdapter",
+        "MPMssAdapter",
+        "NebulaSecurity",
+        "APBLESDK",
+        "AOMPFileManager",
+        "AOMPDevice",
+        "Lottie",
+        "APMultimedia",
+        "NebulaTinyAppDebug",
+        "TinyappService",
+        "TBScanSDK",
+        "BeeLocationPicker",
+        "BeePhoto",
+        "BeeMediaPlayer",
+        "BeeCityPicker",
+        "BeeCapture",
+        "SPMTracker",
+        "MPScanCodeAdapter",
+        "AntUIKitForAlipay",
+        "AntUIShellForMpass",
+        "AntUIKit"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_AMap",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Lottie",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_MBProgressHud",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Masonry",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_SDWebImage",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_UTDIDLib",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TTTAttributedLabel",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TinyApp_Device",
+          "isCommon": false,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TinyApp_Location",
+          "isCommon": false,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TinyApp_Multimedia",
+          "isCommon": false,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TinyApp_Scan",
+          "isCommon": false,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_APWebP",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TinyApp_Audio",
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TinyApp_Player",
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_TinyApp_Audio",
+      "title": "小程序 - 音频",
+      "description": "基于 AppX 2.7.6 版本新增的音频播放 API",
+      "releaseNote": "基于 AppX 2.7.6 版本新增的音频播放 API",
+      "frameworks": [
+        "BEEAudioUtil"
+      ]
+    },
+    {
+      "name": "mPaaS_TinyApp_Device",
+      "title": "小程序 - 设备",
+      "description": "小程序 - 设备",
+      "releaseNote": "拆分设备相关SDK",
+      "frameworks": [
+        "APBLESDK",
+        "AOMPDevice",
+        "AOMPFileManager",
+        "AriverAOMPFileManager",
+        "AriverBLE",
+        "AriverDevice",
+        "AriverDeviceCore",
+        "AriverContact",
+        "AriverWifi",
+        "AriverFileManager"
+      ]
+    },
+    {
+      "name": "mPaaS_TinyApp_Location",
+      "title": "小程序 - 位置",
+      "description": "小程序位置相关 API，支持按需添加",
+      "releaseNote": "将小程序位置相关 API拆分为独立组件",
+      "frameworks": [
+        "APMobileLBS",
+        "MAMapKit",
+        "AMapSearchKit",
+        "AMapFoundationKit",
+        "APMap",
+        "BeeLocationPicker",
+        "BeeCityPicker",
+        "AriverMap",
+        "AriverMapComponent"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_AMap",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_TinyApp_Multimedia",
+      "title": "小程序 - 多媒体",
+      "description": "小程多媒体相关 API，支持按需添加",
+      "releaseNote": "将小程序多媒体相关API 拆分为独立组件",
+      "frameworks": [
+        "BeePhoto",
+        "BeePhotoPicker",
+        "BeePhotoBrowser",
+        "BeeCapture",
+        "BeeUtils"
+      ]
+    },
+    {
+      "name": "mPaaS_TinyApp_Player",
+      "title": "小程序 - 播放器",
+      "description": "播放器相关依赖",
+      "releaseNote": "初始化",
+      "frameworks": [
+        "BeeMediaPlayer",
+        "MediaFlow",
+        "BeeMediaFlowWrapper"
+      ]
+    },
+    {
+      "name": "mPaaS_TinyApp_Scan",
+      "title": "小程序 - 扫码",
+      "description": "小程序扫码相关API",
+      "releaseNote": "拆分小程序扫码相关API",
+      "frameworks": [
+        "MPScanCodeAdapter",
+        "TBScanSDK",
+        "TBDecodeSDK",
+        "MPScanSDK",
+        "xNN"
+      ]
+    },
+    {
+      "name": "mPaaS_TinyApp_without_BLE",
+      "title": "小程序（删除蓝牙模块）",
+      "description": "小程序集成发布能力，删除蓝牙。跟 mPaaS_TinyApp 相比，只是少了 APBLESDK 模块。",
+      "releaseNote": "22年12月6日首次添加。",
+      "frameworks": [
+        "NebulaBiz",
+        "NebulaSDKPlugins",
+        "NebulaAppBiz",
+        "NebulaTinyapp",
+        "TinyAppCommon",
+        "MPNebulaAdapter",
+        "MPMasAdapter",
+        "MPMgsAdapter",
+        "MPMssAdapter",
+        "NebulaSecurity",
+        "APConfig",
+        "NebulaPoseidon",
+        "NebulaNetwork",
+        "NebulaKernel",
+        "NebulaHeader",
+        "NebulaConfig",
+        "AOMPFileManager",
+        "NebulaLogging",
+        "Lottie",
+        "AntUI",
+        "APMultimedia",
+        "AntUIShellForMpass",
+        "NebulaSDK",
+        "NebulaAppManager",
+        "NebulamPaaSBiz",
+        "Nebula",
+        "TinyappService",
+        "TBScanSDK",
+        "MPMpaaSService",
+        "BeeLocationPicker",
+        "BeePhoto",
+        "MASSChannel",
+        "MASSProxy",
+        "AMapSearchKit",
+        "APMap",
+        "MAMapKit",
+        "AMapFoundationKit",
+        "Texel",
+        "APMImageProcessing",
+        "APMUtils",
+        "APMCDNImage",
+        "APMCache",
+        "BeeMediaPlayer",
+        "BeeCityPicker",
+        "BeePhotoPicker",
+        "SDWebImage",
+        "BeeCapture",
+        "BeePhotoBrowser",
+        "APMobileFramework",
+        "SPMTracker",
+        "AutoTracker",
+        "APWebP",
+        "APMTaskManager",
+        "APMBeauty",
+        "APMobileLBS",
+        "MPScanCodeAdapter",
+        "SocketRocket"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_AMap",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Lottie",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_MBProgressHud",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Masonry",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_SDWebImage",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_UTDIDLib",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TTTAttributedLabel",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TinyApp_Device",
+          "isCommon": false,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TinyApp_Location",
+          "isCommon": false,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TinyApp_Multimedia",
+          "isCommon": false,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_TinyApp_Scan",
+          "isCommon": false,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_APWebP",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_UTDID",
+      "title": "设备标识",
+      "description": "简单快捷地获取设备ID，以利于应用程序安全有效的找到特定设备。",
+      "releaseNote": "封装中间层，大幅简化使用难度；优化部分稳定性。",
+      "frameworks": [
+        "UTDID",
+        "MPUTDIDAdapter"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_UTDIDLib",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_UTDIDLib",
+      "title": "UTDID",
+      "description": "UTDID 冲突库 ",
+      "releaseNote": "拆分 UTDID 冲突库",
+      "frameworks": [
+        "UTDID"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_UTDIDLib",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_Upgrade",
+      "title": "升级发布",
+      "description": "提供便捷的主动检测升级的服务，可用于日常灰度发布、线上新版本更新提示",
+      "releaseNote": "封装中间层，大幅简化使用难度。",
+      "frameworks": [
+        "AliUpgradeCheckService",
+        "MPMasAdapter",
+        "MPMgsAdapter"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_UTDIDLib",
+          "isCommon": true,
+          "defaultSelected": true
+        },
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_Visualization",
+      "title": "可视化埋点",
+      "description": "可视化埋点",
+      "releaseNote": "初始化",
+      "frameworks": [
+        "MPVisualizationSDK",
+        "MPMasAdapter"
+      ]
+    },
+    {
+      "name": "mPaaS_WechatOpenSDK",
+      "title": "微信分享",
+      "description": "微信分享",
+      "releaseNote": "拆分微信分享SDK成单独可选组件",
+      "frameworks": [
+        "WechatOpenSDK"
+      ]
+    },
+    {
+      "name": "mPaaS_Zoloz",
+      "title": "实人认证（专有云）",
+      "description": "实人认证",
+      "releaseNote": "实人认证",
+      "frameworks": [
+        "MPZolozAdapter",
+        "zolozIdentitySDK",
+        "ZetaToygerServiceAlgo",
+        "zolozOpenUISDK",
+        "MPZolozUIExt",
+        "xNN"
+      ]
+    },
+    {
+      "name": "mPaaS_ZolozShield",
+      "title": "人脸盾（专有云）",
+      "description": "人脸识别安全",
+      "releaseNote": "人脸识别安全",
+      "frameworks": [
+        "zolozAppSecurityBuildSDK",
+        "MPZolozSecurityAdapter",
+        "APPSecuritySDKCore",
+        "MPSecurityDetectAdapter",
+        "APMobileNetwork",
+        "APConfig",
+        "APPSecurityMPaasAdapter",
+        "APSecDeviceSensorInfo",
+        "MPUTDIDAdapter",
+        "UTDID",
+        "MPMgsAdapter"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_Zoloz_Ext",
+      "title": "实人认证扩展（专有云）",
+      "description": "实人认证扩展",
+      "releaseNote": "实人认证扩展",
+      "frameworks": [
+        "APRemoteLogging",
+        "MPZolozExt"
+      ]
+    },
+    {
+      "name": "mPaaS_dual_core",
+      "title": "智能双录",
+      "description": "智能双录",
+      "releaseNote": "无",
+      "frameworks": [
+        "APMultimedia",
+        "mPaas",
+        "APMUtils",
+        "Texel",
+        "iSMIKit",
+        "opus",
+        "APMAudio"
+      ],
+      "options": [
+        {
+          "name": "mPaaS_Security",
+          "isCommon": true,
+          "defaultSelected": true
+        }
+      ]
+    },
+    {
+      "name": "mPaaS_iSec",
+      "title": "信安国密SDK组件（专有云）",
+      "description": "信安国密SDK组件",
+      "releaseNote": "信安国密SDK组件",
+      "frameworks": [
+        "MPSecNetworkKit",
+        "MPSecNetworkAdapter"
+      ]
+    },
+    {
+      "name": "mPaas_AMapFoundation_only",
+      "title": "AMapFoundation单独库",
+      "description": "独立出AMapFoundation，用于某些用户只想这个库用自己的",
+      "releaseNote": "初始",
+      "frameworks": [
+        "AMapFoundationKit"
+      ]
+    }
+  ],
+  "differences": [
+    {
+      "info": [
+        {
+          "framework": {
+            "dependencies": [
+              "APMobileFramework",
+              "APCommonUI",
+              "NebulaSecurity",
+              "APRemoteLogging",
+              "Nebula",
+              "NebulaKernel",
+              "NebulaAppBiz",
+              "AntUI",
+              "NebulaLogging",
+              "NebulaTinyapp",
+              "NebulaConfig",
+              "MPDataCenter",
+              "mPaas"
+            ],
+            "headers": [],
+            "name": "NebulaBiz",
+            "resources": [
+              "NebulaBiz.framework/*.bundle"
+            ],
+            "systemFrameworks": [
+              "AudioToolBox",
+              "AVFoundation"
+            ],
+            "systemLibraries": [],
+            "version": "1.0.0.230224154612"
+          },
+          "module": "mPaaS_Nebula",
+          "priority": 1
+        },
+        {
+          "framework": {},
+          "module": "mPaaS_TinyApp",
+          "priority": 5
+        }
+      ],
+      "name": "NebulaBiz"
+    },
+    {
+      "info": [
+        {
+          "framework": {
+            "dependencies": [
+              "APMobileNetwork",
+              "APMobileFramework",
+              "Nebula",
+              "NebulaTinyapp",
+              "NebulaConfig",
+              "mPaas",
+              "AntUI"
+            ],
+            "headers": [],
+            "name": "TinyAppCommon",
+            "resources": [
+              "TinyAppCommon.framework/*.bundle"
+            ],
+            "systemFrameworks": [],
+            "systemLibraries": [],
+            "version": "1.0.0.200716151854"
+          },
+          "module": "mPaaS_Nebula",
+          "priority": 1
+        },
+        {
+          "framework": {},
+          "module": "mPaaS_TinyApp",
+          "priority": 5
+        }
+      ],
+      "name": "TinyAppCommon"
+    },
+    {
+      "info": [
+        {
+          "framework": {
+            "dependencies": [
+              "APMobileFramework",
+              "APMobileNetwork",
+              "NebulaSDK",
+              "SDWebImage",
+              "NebulaKernel"
+            ],
+            "headers": [],
+            "name": "Nebula",
+            "resources": [],
+            "systemFrameworks": [],
+            "systemLibraries": [],
+            "version": "1.0.0.200408113938"
+          },
+          "module": "mPaaS_AliAccount",
+          "priority": 5
+        },
+        {
+          "framework": {},
+          "module": "mPaaS_TinyApp",
+          "priority": 1
+        }
+      ],
+      "name": "Nebula"
+    },
+    {
+      "info": [
+        {
+          "framework": {
+            "dependencies": [
+              "APMobileNetwork",
+              "APMobileFramework",
+              "Nebula",
+              "NebulaAppBiz",
+              "NebulaBiz",
+              "NebulaSecurity",
+              "NebulaSecurity",
+              "NebulaSDK",
+              "InsideSDK",
+              "mPaas",
+              "NebulaSDKPlugins"
+            ],
+            "headers": [],
+            "name": "NebulaAuth",
+            "resources": [],
+            "systemFrameworks": [],
+            "systemLibraries": [],
+            "version": "1.0.0.210811115416"
+          },
+          "module": "mPaaS_AliAccount",
+          "priority": 5
+        }
+      ],
+      "name": "NebulaAuth"
+    },
+    {
+      "info": [
+        {
+          "framework": {
+            "dependencies": [
+              "InsideSDK",
+              "APMobileFramework",
+              "APMobileNetwork",
+              "MPDataCenter",
+              "APRemoteLogging",
+              "AntUI",
+              "InsideSDK",
+              "NebulaSDK",
+              "Nebula",
+              "mPaas",
+              "NebulaNetwork",
+              "NebulaSDKPlugins"
+            ],
+            "headers": [],
+            "name": "NBInsideAccountAdaptor",
+            "resources": [],
+            "systemFrameworks": [],
+            "systemLibraries": [],
+            "version": "1.0.0.200511112005"
+          },
+          "module": "mPaaS_AliAccount",
+          "priority": 5
+        }
+      ],
+      "name": "NBInsideAccountAdaptor"
+    },
+    {
+      "info": [
+        {
+          "framework": {
+            "dependencies": [],
+            "headers": [],
+            "name": "InsideSDK",
+            "resources": [
+              "InsideDataConfig.framework/*.bundle"
+            ],
+            "systemFrameworks": [],
+            "systemLibraries": [],
+            "version": "1.0.0.210317104650"
+          },
+          "module": "mPaaS_AliAccount",
+          "priority": 5
+        }
+      ],
+      "name": "InsideSDK"
+    },
+    {
+      "info": [
+        {
+          "framework": {
+            "dependencies": [],
+            "headers": [],
+            "name": "MPSecNetworkKit",
+            "resources": [],
+            "systemFrameworks": [],
+            "systemLibraries": [],
+            "version": "1.0.0.250814173206"
+          },
+          "module": "mPaaS_iSec",
+          "priority": 5
+        }
+      ],
+      "name": "MPSecNetworkKit"
+    }
+  ]
+}

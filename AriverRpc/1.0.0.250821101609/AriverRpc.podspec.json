@@ -1,0 +1,30 @@
+{
+  "name": "AriverRpc",
+  "version": "1.0.0.250821101609",
+  "summary": "AriverRpc - 支付宝钱包AriverRpc类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverRpc/1_0_0_250821101609.tar.gz"
+  },
+  "prefix_header_file": "SupportingFiles/AriverRpc-Prefix.pch",
+  "exclude_files": "Classes/Exclude",
+  "preserve_paths": "AriverRpc.framework/*",
+  "header_dir": "AriverRpc",
+  "dependencies": {
+    "AriverRuntime": [],
+    "APMobileNetwork": [],
+    "APProtocolBuffers": [],
+    "AriverConfig": []
+  },
+  "vendored_frameworks": "AriverRpc.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverRpc"
+  }
+}

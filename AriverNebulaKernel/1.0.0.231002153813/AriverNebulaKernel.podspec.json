@@ -1,0 +1,27 @@
+{
+  "name": "AriverNebulaKernel",
+  "version": "1.0.0.231002153813",
+  "summary": "AriverNebulaKernel - AriverNebulaKernel",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverNebulaKernel/1_0_0_231002153813.tar.gz"
+  },
+  "preserve_paths": "AriverNebulaKernel.framework/*",
+  "resources": "AriverNebulaKernel.framework/*.bundle",
+  "dependencies": {
+    "AriverNebulaPoseidon": [],
+    "AriverKernel": [],
+    "AriverApp": []
+  },
+  "vendored_frameworks": "AriverNebulaKernel.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverNebulaKernel"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "BeeHive",
+  "version": "1.0.0.240321171653",
+  "summary": "BeeHive - 支付宝BeeHive类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/BeeHive/1_0_0_240321171653.tar.gz"
+  },
+  "preserve_paths": "BeeHive.framework/*",
+  "resources": "BeeHive.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "APCommonUI": [],
+    "NebulaPlugins": [],
+    "Texel": [],
+    "AntCube": [],
+    "APConfig": [],
+    "BeeLottiePlayer": [],
+    "BeeLottiePlayerPlugins": [],
+    "AntWasm": [],
+    "AnimatiableBase": []
+  },
+  "vendored_frameworks": "BeeHive.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/BeeHive"
+  }
+}

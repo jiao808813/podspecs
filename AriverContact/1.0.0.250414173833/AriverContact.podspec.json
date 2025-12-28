@@ -1,0 +1,31 @@
+{
+  "name": "AriverContact",
+  "version": "1.0.0.250414173833",
+  "summary": "AriverContact - 支付宝钱包AriverContact类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverContact/1_0_0_250414173833.tar.gz"
+  },
+  "preserve_paths": "AriverContact.framework/*",
+  "resources": "AriverContact.framework/*.bundle",
+  "frameworks": [
+    "Contacts",
+    "ContactsUI",
+    "AddressBook"
+  ],
+  "dependencies": {
+    "AriverKernel": [],
+    "AriverApp": []
+  },
+  "vendored_frameworks": "AriverContact.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverContact"
+  }
+}

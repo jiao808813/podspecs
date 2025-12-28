@@ -1,0 +1,25 @@
+{
+  "name": "MPMASDK",
+  "version": "1.0.0.250528162629",
+  "summary": "MPMASDK - 支付宝钱包MPMASDK类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPMASDK/1_0_0_250528162629.tar.gz"
+  },
+  "preserve_paths": "MPMASDK.framework/*",
+  "resources": "MPMASDK.framework/*.bundle",
+  "dependencies": {
+    "APMobileFramework": []
+  },
+  "vendored_frameworks": "MPMASDK.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPMASDK"
+  }
+}

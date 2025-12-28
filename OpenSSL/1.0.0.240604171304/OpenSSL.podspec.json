@@ -1,0 +1,23 @@
+{
+  "name": "OpenSSL",
+  "version": "1.0.0.240604171304",
+  "summary": "OpenSSL - 支付宝钱包OpenSSL类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/OpenSSL/1_0_0_240604171304.tar.gz"
+  },
+  "preserve_paths": "OpenSSL/*",
+  "vendored_libraries": "OpenSSL/lib/*.a",
+  "public_header_files": "OpenSSL/include/openssl/*.h",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/OpenSSL",
+    "USER_HEADER_SEARCH_PATHS": "OpenSSL/include/openssl/*.{h}"
+  }
+}

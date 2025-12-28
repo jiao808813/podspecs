@@ -1,0 +1,27 @@
+{
+  "name": "MPFaceGuardShell",
+  "version": "1.0.0.250410141647",
+  "summary": "MPFaceGuardShell - 支付宝钱包MPFaceGuardShell类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPFaceGuardShell/1_0_0_250410141647.tar.gz"
+  },
+  "resources": "",
+  "libraries": [
+    "c++",
+    "z",
+    "resolv"
+  ],
+  "frameworks": [
+    "Security",
+    "CoreTelephony"
+  ],
+  "vendored_frameworks": "faceguard.framework",
+  "requires_arc": true
+}

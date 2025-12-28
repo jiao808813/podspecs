@@ -1,0 +1,42 @@
+{
+  "name": "AriverAOMPFileManager",
+  "version": "1.0.0.230824181815",
+  "summary": "AriverAOMPFileManager - 支付宝钱包AriverAOMPFileManager类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverAOMPFileManager/1_0_0_230824181815.tar.gz"
+  },
+  "preserve_paths": "AriverAOMPFileManager.framework/*",
+  "resources": "AriverAOMPFileManager.framework/*.bundle",
+  "dependencies": {
+    "AriverNebula": [],
+    "AriverNebulaSDK": [],
+    "AriverNebulaAppManager": [],
+    "AriverNebulaPoseidon": [],
+    "APMultimedia": [],
+    "APMobileFramework": [],
+    "AriverNebulaKernel": [],
+    "MPDataCenter": [],
+    "APConfig": [],
+    "APMobileNetwork": [],
+    "MASSProxy": [],
+    "AriverTinyAppCommon": [],
+    "AriverFileManager": [],
+    "mPaas": [],
+    "NBInside": [],
+    "APMVideo": [],
+    "APMVoiceManager": []
+  },
+  "frameworks": "QuickLook",
+  "vendored_frameworks": "AriverAOMPFileManager.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverAOMPFileManager"
+  }
+}

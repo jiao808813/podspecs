@@ -1,0 +1,27 @@
+{
+  "name": "ATEdgeNetwork",
+  "version": "1.0.0.250122153140",
+  "summary": "ATEdgeNetwork - 支付宝钱包ATEdgeNetwork类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/ATEdgeNetwork/1_0_0_250122153140.tar.gz"
+  },
+  "preserve_paths": "ATEdgeNetwork.framework/*",
+  "resources": "ATEdgeNetwork.framework/*.bundle",
+  "dependencies": {
+    "APLog": [],
+    "MASSProxy": [],
+    "APStreamingRPC": []
+  },
+  "vendored_frameworks": "ATEdgeNetwork.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/ATEdgeNetwork"
+  }
+}

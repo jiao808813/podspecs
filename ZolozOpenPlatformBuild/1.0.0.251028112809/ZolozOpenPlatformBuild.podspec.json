@@ -1,0 +1,29 @@
+{
+  "name": "ZolozOpenPlatformBuild",
+  "version": "1.0.0.251028112809",
+  "summary": "ZolozOpenPlatformBuild - ZolozOpenPlatformBuild类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/ZolozOpenPlatformBuild/1_0_0_251028112809.tar.gz"
+  },
+  "preserve_paths": "ZolozOpenPlatformBuild.framework/*",
+  "resources": "ZolozOpenPlatformBuild.framework/*.bundle",
+  "dependencies": {
+    "BioAuthEngine": [],
+    "ZolozUtility": [],
+    "AliyunIdentityManager": [],
+    "BioAuthAPI": [],
+    "ZolozSensorServices": []
+  },
+  "vendored_frameworks": "ZolozOpenPlatformBuild.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/ZolozOpenPlatformBuild"
+  }
+}

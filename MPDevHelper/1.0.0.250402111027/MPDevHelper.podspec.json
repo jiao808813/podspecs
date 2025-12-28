@@ -1,0 +1,23 @@
+{
+  "name": "MPDevHelper",
+  "version": "1.0.0.250402111027",
+  "summary": "MPaaS 开发助手",
+  "description": "",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPDevHelper/1_0_0_250402111027.tar.gz"
+  },
+  "preserve_paths": "MPDevHelper.framework/*",
+  "resources": "MPDevHelper.framework/*.bundle",
+  "vendored_frameworks": "MPDevHelper.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPDevHelper"
+  },
+  "libraries": "c++"
+}

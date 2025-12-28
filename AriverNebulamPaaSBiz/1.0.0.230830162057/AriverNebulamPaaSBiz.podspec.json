@@ -1,0 +1,28 @@
+{
+  "name": "AriverNebulamPaaSBiz",
+  "version": "1.0.0.230830162057",
+  "summary": "NebulaSDK - Nebula类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverNebulamPaaSBiz/1_0_0_230830162057.tar.gz"
+  },
+  "preserve_paths": "AriverNebulamPaaSBiz.framework/*",
+  "dependencies": {
+    "AriverNebula": [],
+    "AriverNebulaSDK": [],
+    "AriverNebulaAppManager": [],
+    "NebulaResource": [],
+    "MPMpaaSService": []
+  },
+  "vendored_frameworks": "AriverNebulamPaaSBiz.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverNebulamPaaSBiz"
+  }
+}

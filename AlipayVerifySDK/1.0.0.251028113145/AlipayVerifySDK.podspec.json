@@ -1,0 +1,45 @@
+{
+  "name": "AlipayVerifySDK",
+  "version": "1.0.0.251028113145",
+  "summary": "AlipayVerifySDK - 支付宝钱包AlipayVerifySDK类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AlipayVerifySDK/1_0_0_251028113145.tar.gz"
+  },
+  "preserve_paths": "AlipayVerifySDK.framework/*",
+  "resources": "AlipayVerifySDK.framework/*.bundle",
+  "dependencies": {
+    "BioAuthAPI": [],
+    "ToygerService": [],
+    "ZolozMobileRPC": [],
+    "ZolozOpenPlatformBuild": [],
+    "ZolozSensorServices": [],
+    "ZolozUtility": [],
+    "AliyunIdentityManager": [],
+    "APBToygerFacade": [],
+    "BioAuthEngine": []
+  },
+  "vendored_frameworks": "AlipayVerifySDK.framework",
+  "frameworks": [
+    "WebKit",
+    "Accelerate",
+    "AssetsLibrary",
+    "CoreMotion",
+    "CoreLocation"
+  ],
+  "libraries": [
+    "c++",
+    "c++.1",
+    "c++abi"
+  ],
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AlipayVerifySDK"
+  }
+}

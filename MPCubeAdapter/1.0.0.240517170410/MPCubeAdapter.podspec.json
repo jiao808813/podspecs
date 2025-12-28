@@ -1,0 +1,30 @@
+{
+  "name": "MPCubeAdapter",
+  "version": "1.0.0.240517170410",
+  "summary": "MPCubeAdapter - 支付宝钱包MPCubeAdapter类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPCubeAdapter/1_0_0_240517170410.tar.gz"
+  },
+  "preserve_paths": "MPCubeAdapter.framework/*",
+  "dependencies": {
+    "AntCube": [],
+    "AntUI": [],
+    "mPaas": [],
+    "APMultimedia": [],
+    "BeeMediaPlayer": [],
+    "BeeAliPayPlayerWrapper": [],
+    "APLog": []
+  },
+  "vendored_frameworks": "MPCubeAdapter.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPCubeAdapter"
+  }
+}

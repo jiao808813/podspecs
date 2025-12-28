@@ -1,0 +1,31 @@
+{
+  "name": "AriverNebulaSDKPlugins",
+  "version": "1.0.0.250910113118",
+  "summary": "AriverNebulaSDKPlugins - 支付宝钱包AriverNebulaSDKPlugins类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverNebulaSDKPlugins/1_0_0_250910113118.tar.gz"
+  },
+  "preserve_paths": "AriverNebulaSDKPlugins.framework/*",
+  "resources": "AriverNebulaSDKPlugins.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "MPDataCenter": [],
+    "APCommonUI": [],
+    "APMobileFramework": [],
+    "mPaas": [],
+    "NebulaHeader": [],
+    "mPaaSHeader": []
+  },
+  "vendored_frameworks": "AriverNebulaSDKPlugins.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverNebulaSDKPlugins"
+  }
+}

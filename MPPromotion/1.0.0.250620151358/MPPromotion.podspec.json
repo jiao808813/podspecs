@@ -1,0 +1,35 @@
+{
+  "name": "MPPromotion",
+  "version": "1.0.0.250620151358",
+  "summary": "Promotion - cdp 模块",
+  "description": "* appId: 1000000",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPPromotion/1_0_0_250620151358.tar.gz"
+  },
+  "preserve_paths": "MPPromotion.framework/*",
+  "resources": "MPPromotion.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "APCommonUI": [],
+    "APConfig": [],
+    "mPaaSHeader": [],
+    "APMobileLBS": [],
+    "SPMTracker": [],
+    "APRemoteLogging": [],
+    "APMultimedia": [],
+    "Lottie": [],
+    "APMVideo": []
+  },
+  "vendored_frameworks": "MPPromotion.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPPromotion"
+  }
+}
